@@ -12,7 +12,7 @@
 
 #### B) Naming VLANs
 
-![[Pasted image 20260110153401.png]]
+![](Pasted-image-20260110153401.png)
 
 1. Configure los nombres de host de los switches como SW1 y SW2, respectivamente. 
 2. Cree dos VLAN en cada switch con los siguientes nombres:
@@ -25,7 +25,7 @@
 
 #### C) VLAN Configuration: Trunk Encapsulation 
 
-![[Pasted image 20260108120710.png]]
+![](Pasted-image-20260108120710.png)
 
 1. Haga ping entre las PC para probar la conectividad.
 2. Asigne las PC2 y PC3 a la VLAN 2.
@@ -38,7 +38,7 @@
 **1) Haga ping entre las computadoras para probar la conectividad.**
 
 Ping 
-![[Pasted image 20260106171744.png]]
+![](Pasted-image-20260106171744.png)
 
 **2. Asigne PC1 y PC3 a la VLAN1, y PC2 y PC4 a la VLAN2.**
 
@@ -72,9 +72,9 @@ Switch(config-if)#switchport access vlan 2
 **3. Intente hacer ping entre PC1 y PC3, y luego entre PC2 y PC4.**
 
 Ping PC1 y PC3
-![[Pasted image 20260106171807.png]]
+![](Pasted-image-20260106171807.png)
 Ping PC2 y PC4
-![[Pasted image 20260106171820.png]]
+![](Pasted-image-20260106171820.png)
 
 ¿Por qué funciona el ping entre PC1 y PC3, pero no entre PC2 y PC4?
 
@@ -152,7 +152,7 @@ SW1(config-vlan)#name INGENIERIA
 ```
 SW1(config-vlan)#do show vlan brief
 ```
-![[Pasted image 20260110154054.png]]
+![](Pasted-image-20260110154054.png)
 
 **3. Configure un enlace troncal entre SW1 y SW2 y configure un enlace troncal entre SW1 y SW2.**
 En SW1
