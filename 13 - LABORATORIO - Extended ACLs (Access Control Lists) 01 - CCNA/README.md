@@ -71,18 +71,24 @@ int g0/2
 
 
 Vemos la pagina web desde la PC2 `10.0.0.2`
+
 ![](Pasted-image-20260121112631.png)
 
 Desde la PC1
+
 ![](Pasted-image-20260121112822.png)
 
 Ping desde PC2 `10.0.0.2`
+
 ![](Pasted-image-20260121112910.png)
 
 Ping de `10.0.0.0/24` a `20.0.0.0/24`
-![](Pasted-image-20260121113029.png)
-![](Pasted-image-20260121113045.png)
 
+![](Pasted-image-20260121113029.png)
+
+
+
+![](Pasted-image-20260121113045.png)
 
 ```
 Router#show access-lists
@@ -120,9 +126,11 @@ Standard IP access list 1
 ```
 
 Ping a diferentes puntos de la red
+
 ![](Pasted-image-20260121114356.png)
 
 Pero si se logra hacer ping al servidor
+
 ![](Pasted-image-20260121114609.png)
 
 **5. Solamente el host 10.0.0.1 tiene permitido hacer telnet a los routers.**
@@ -144,9 +152,11 @@ line vty 0 4
 ```
 
 Exito entrando desde `10.0.0.1`
+
 ![](Pasted-image-20260121120521.png)
 
 y desde los otros dispositivos.
+
 ![](Pasted-image-20260121120558.png)
 
 #### C)
@@ -163,8 +173,9 @@ int Gig0/0
    ipv6 traffic-filte POLITICAS out   
 ```
 
-
 ![](Pasted-image-20260121125032.png)
+
+
 
 ![](Pasted-image-20260121125113.png)
 

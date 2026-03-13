@@ -3,6 +3,7 @@
 #### A)
 
 ![](Pasted-image-20260106171605.png)
+
 Configure DHCP en el Router1 de la siguiente manera:
 1) Rango de direcciones excluidas: 10.1.1.1 a 10.1.1.100
 2) Nombre del grupo: pc
@@ -96,9 +97,11 @@ Switch(config-if)# switchport mode access
 Mode access porque no vamos a usar VLANs aquí.
 
 **IP que el DHCP le asigno a la PC**
+
 ![](Pasted-image-20260106171638.png)
 
 6. **Compruebe que la PC pueda hacer ping al loopback del Router1**
+
 ![](Pasted-image-20260106171651.png)
 
 #### B)
@@ -162,6 +165,8 @@ IPs que le asignaron a PC1 y PC2
 
 ![](Pasted-image-20260122113630.png)
 
+
+
 ![](Pasted-image-20260122113641.png)
 
 **2. PC3 debe recibir el direccionamiento IP correcto que le permita conectarse al resto de la red. Para la red 192.168.30.0/24 el servidor DHCP debe ser la máquina remota conectada a R4.**
@@ -192,6 +197,7 @@ network 10.120.0.0
 ```
 
 En el DHCP Server
+
 ![](Pasted-image-20260122113146.png)
 
 IP que se le asigno a PC3
@@ -243,12 +249,12 @@ R1(dhcp-config)#network 192.168.12.0 255.255.255.0
 ```
 
 En PC1
+
 ![](Pasted-image-20260122115725.png)
 
 En PC2
+
 ![](Pasted-image-20260122115743.png)
-
-
 
 **2. Configure la interfaz G0/0 de R2 como cliente DHCP y luego habilite la interfaz.**
 
@@ -268,7 +274,10 @@ R2(config-if)#ip helper-address 192.168.12.1
 ```
 
 En PC3
+
 ![](Pasted-image-20260122120641.png)
 
 En PC4
+
 ![](Pasted-image-20260122120700.png)
+

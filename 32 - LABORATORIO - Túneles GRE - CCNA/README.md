@@ -152,4 +152,6 @@ R2(config)#ip route 0.0.0.0 0.0.0.0 200.0.0.1
 ```
 
 Verificamos con un ping de PC2 a PC1.
+
 ![](Pasted-image-20260217112611.png)
+

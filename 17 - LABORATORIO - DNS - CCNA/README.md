@@ -34,9 +34,11 @@ R1(dhcp-config)#default-router 192.168.1.1
 **2. Desde la PC1, intente hacer ping a SRV1 por dirección IP y luego por nombre. ¿Falló alguno de los dos?**
 
 Ping por dirección IP
+
 ![](Pasted-image-20260123093125.png)
 
 Ping por su nombre
+
 ![](Pasted-image-20260123093609.png)
 
 Solo hubo exito con la IP address.
@@ -53,13 +55,17 @@ R1(dhcp-config)#dns-server 20.0.0.100
 
 ![](Pasted-image-20260123093551.png)
 
+
+
 ![](Pasted-image-20260123093921.png)
+
 Hay exito al hacer ping.
 
 
 **5. En SW1, intente hacer ping a SRV1 por dirección IP y por nombre.**
 
 ![](Pasted-image-20260123094050.png)
+
 El ping falla, porque el switch no recibe el default gateway proporcionada por el dhcp server.
 
 
@@ -74,3 +80,4 @@ SW1(config)#ip name-server 20.0.0.100
 Ping
 
 ![](Pasted-image-20260123094405.png)
+

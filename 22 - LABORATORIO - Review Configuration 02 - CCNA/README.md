@@ -202,6 +202,7 @@ R1(config-router)#no passive-interface g0/1
 **2. Los hosts de la red 192.168.2.0/24 no reciben direcciones IP mediante DHCP.**
 
 ![](Pasted-image-20260127095821.png)
+
 Debido a que el servidor DHCP no esta conectado directamente a 192.168.2.0/24 podria haber un problema con el agente de retransmición DHCP R2
 
 
@@ -282,6 +283,8 @@ R1(dhcp-config)#dns-server 30.0.0.100
 
 ![](Pasted-image-20260127101543.png)
 
+
+
 ![](Pasted-image-20260127101609.png)
 
 **5. No se puede conectar a R1 mediante SSH.**
@@ -309,3 +312,4 @@ R1(config-line)#transport input ssh
 ```
 
 ![](Pasted-image-20260127101957.png)
+

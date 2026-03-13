@@ -166,7 +166,6 @@ SW1(config-if)#switchport mode trunk
 
 ![](Pasted-image-20260116114149.png)
 
-
 ### **B)**
 
 De primera no se lograr realizar un `ping` con éxito entre ninguna pc.

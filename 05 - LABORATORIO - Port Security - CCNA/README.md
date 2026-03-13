@@ -261,8 +261,8 @@ switchport port-security mac-address sticky
 ```
 Con este comando habilitamos el aprendizaje dinámico y automático de direcciones MAC.
 
-
 ![](Pasted-image-20260114100931.png)
+
 Generamos trafico.
 
 
@@ -380,9 +380,10 @@ SW2(config-if)#switchport port-security mac-address 000A.F369.4165
 **7. Haga ping de PC1 a PC2. ¿Qué sucede?**
 
 ![](Pasted-image-20260114104944.png)
-No hay conexion.
-![](Pasted-image-20260114105037.png)
 
+No hay conexion.
+
+![](Pasted-image-20260114105037.png)
 
 **8. Vuelva a conectar los cables como en la topología original.**
 
@@ -391,6 +392,7 @@ No hay conexion.
 **9. Haga ping de PC1 a PC2. ¿Qué sucede?**
 
 ![](Pasted-image-20260114105204.png)
+
 No hay conexion.
 El problema es que al insertar otro dispositivo con una direccion mac diferente, se detecta una violación.
 Al hacer un ping de PC1 a PC2 se detecto la violacion de **Fa0/2** de **SW1**.
@@ -412,3 +414,4 @@ SW2(config-if)#
 Hacemos ping:
 
 ![](Pasted-image-20260114105624.png)
+

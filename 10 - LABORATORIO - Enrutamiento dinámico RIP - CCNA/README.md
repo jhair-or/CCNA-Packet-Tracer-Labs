@@ -85,6 +85,7 @@ interface Loopback0
 ```
 
 Si hay ping entre lo routers
+
 ![](Pasted-image-20260117110432.png)
 
 **2) Configurar RIP para lograr el intercambio de rutas entre los vecinos y verificar que las LAN tengan conectividad entre ellas**
@@ -358,5 +359,6 @@ Distance: (default is 120)
 ```
 
 Hacemos ping de PC1 a las demas PCs
+
 ![](Pasted-image-20260118140849.png)
 

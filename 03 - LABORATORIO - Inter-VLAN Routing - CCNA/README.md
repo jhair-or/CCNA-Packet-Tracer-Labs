@@ -1,6 +1,7 @@
 ## 03 - LABORATORIO - Inter-VLAN Routing 01 -CCNA
 
 #### A) Enrutamiento Inter-VLAN tradicional
+
 ![](Pasted-image-20260116130743.png)
 
 #### B) Inter-VLAN Routing
@@ -71,6 +72,7 @@ switchport access vlan 30
 ```
 
 Verificacion:
+
 ![](Pasted-image-20260117104846.png)
 
 #### B) Inter-VLAN Routing
@@ -162,6 +164,7 @@ Switch(config-if)#switchport mode trunk
 **5. Pruebe la conectividad haciendo ping entre las PC.**
 
 Ahora ya se puede hacer ping entre las VLANs
+
 ![](Pasted-image-20260109140226.png)
 
 #### C) Enrutamiento Inter-VLAN multicapa (MLS) 

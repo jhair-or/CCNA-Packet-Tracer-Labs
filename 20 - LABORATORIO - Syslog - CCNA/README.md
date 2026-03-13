@@ -20,13 +20,17 @@
 **1. Conéctese al puerto de consola de R1 mediante PC2:**
 
    - Apague la interfaz G0/0
+
 ![](Pasted-image-20260125160150.png)
 
    - Tras recibir un mensaje de syslog, vuelva a habilitar la interfaz.
+
 ![](Pasted-image-20260125160405.png)
 
    - ¿Cuál es la gravedad de los mensajes de syslog?
+
 ![](Pasted-image-20260125160433.png)
+
 El nivel 5 indican que son informativos.
 
    - Habilite las marcas de fecha y hora con milisegundos para el registro de mensajes.
@@ -61,7 +65,6 @@ R1(config-line)#transport input telnet
 ```
 
 ![](Pasted-image-20260125161302.png)
-
 
 **3. Conéctese por Telnet desde PC1 a la interfaz G0/0 de R1 y, a continuación, ejecute un "no shutdown" en la interfaz G0/1 no utilizada.**
 
@@ -120,4 +123,7 @@ R1(config)#logging 192.168.1.100
 
 ![](Pasted-image-20260125182020.png)
 
+
+
 ![](Pasted-image-20260125182040.png)
+

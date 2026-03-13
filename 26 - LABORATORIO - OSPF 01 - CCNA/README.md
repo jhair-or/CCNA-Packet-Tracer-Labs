@@ -4,7 +4,6 @@
 
 ![](Pasted-image-20260129104444.png)
 
-
 #### B) Single Area
 
 ![](Pasted-image-20260129102604.png)

@@ -138,13 +138,12 @@ R1(config)#do show clock
 ```
 
 Y para establecer la hora UTC
+
 ![](Pasted-image-20260119104527.png)
 
 ```
 R1#clock set 15:46:00 Jan 01 2026
 ```
-
-
 
 ![](Pasted-image-20260119104811.png)
 

@@ -4,7 +4,6 @@
 
 ![](Pasted-image-20260111124706.png)
 
-
 1. Use CDP para identificar las interfaces que se utilizan para conectar los routers y switches.
 2. Determine qué lado de la conexión serial entre R1 y R2 es DCE y cuál es DTE. Establezca una velocidad de reloj de 64 KB/s en el lado DCE.
 3. ¿Cuáles son los temporizadores predeterminados de envío y retención de CDP? Confirme esto con el comando "show" en uno de los dispositivos.

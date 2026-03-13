@@ -35,11 +35,12 @@ int g0/0
 De la Red `10.0.0.0/24`
 
 Ping a PC4
+
 ![](Pasted-image-20260120092018.png)
 
 Ping a PC4
-![](Pasted-image-20260120092040.png)
 
+![](Pasted-image-20260120092040.png)
 
 **Además asegúrese que la red 20.0.0.0/24 no pueda ingresar a la red 10.0.0.0/24.**
 
@@ -56,6 +57,7 @@ int g0/2
 Hacemos ping de `20.0.0.0/24` a `10.0.0.0/24`
 
 ![](Pasted-image-20260120093059.png)
+
  
  Y para usamos el comando 
 ```
@@ -95,9 +97,12 @@ R2(config-if)#ip access-group 1 out
 ```
 
 Ping de de 192.168.1.0/24 a SRV1
+
 ![](Pasted-image-20260120094305.png)
+
    
 Ping de 192.168.2.0/24 a SRV1
+
 ![](Pasted-image-20260120094418.png)
 
   ---La PC4 no puede comunicarse con la red 192.168.1.0/24.
@@ -111,4 +116,6 @@ R1(config-if)#ip access-group 1 out
 ```
 
 Hacemos ping de PC4 a la red 192.168.1.0/24
+
 ![](Pasted-image-20260120094928.png)
+

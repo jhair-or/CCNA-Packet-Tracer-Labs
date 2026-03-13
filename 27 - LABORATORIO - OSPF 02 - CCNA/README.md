@@ -4,7 +4,6 @@
 
 ![](Pasted-image-20260129105129.png)
 
-
 1. Configuración de OSPFv2
    1.1 Levantar OSPF entre todos los routers de la topología y verificar conectividad entre todos los extremos
    1.2 Permitir que todos los routers tengan acceso a Internet propagando por medio de OSPF la ruta por defecto instalada en R1

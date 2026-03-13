@@ -132,6 +132,7 @@ R3(config-router)#net 192.168.4.0 mask 255.255.255.0
 **4. ¿Por qué la PC1 no puede hacer ping a la PC4? SUGERENCIA: Observe el R4.**
 
 En PC1
+
 ![](Pasted-image-20260218125615.png)
 
 En R4
@@ -278,5 +279,7 @@ R3(config-if)#ppp authentication chap
 ```
 
 Probamos el ping
+
 ![](Pasted-image-20260218134538.png)
+
 Se ha resuelto el problema de red correctamente.

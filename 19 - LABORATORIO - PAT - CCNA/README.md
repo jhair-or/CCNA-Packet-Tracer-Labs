@@ -39,11 +39,9 @@ Ping en XYZ.COM
 
 ![](Pasted-image-20260124103831.png)
 
-
 Ping en Webhosting Pro
 
 ![](Pasted-image-20260124103809.png)
-
 
 **2. Los usuarios de UniNET deberán salir a Internet con las direcciones IP 88.177.23.10 a 88.177.23.20.**
 
@@ -168,14 +166,18 @@ interface g0/0
 **5) Verificar conectividad de extremo a extremo (Internet solamente).**
 
 Ping de Laptop0(UniNET) al ISP
+
 ![](Pasted-image-20260124115546.png)
 
 Ping de Laptop1(XYZ.com) al ISP
+
 ![](Pasted-image-20260124115638.png)
 
-
 Ping de Laptop 0(UniNET) y Laptop2(XYZ.com) al Server(Webhosting Pro) 
+
 ![](Pasted-image-20260124113333.png)
+
+
 
 ![](Pasted-image-20260124115828.png)
 
@@ -187,6 +189,7 @@ Ping de Laptop 0(UniNET) y Laptop2(XYZ.com) al Server(Webhosting Pro)
    **¿Por qué PC1, PC2 y PC3 no pueden hacer ping correctamente a SRV1?
    (Pista: La conexión serial entre R1 y R2 simula Internet con ACL).
    **
+
 ![](Pasted-image-20260124120725.png)
 
  Internet NO enruta direcciones privadas (RFC 1918).
@@ -225,3 +228,4 @@ R1#sh ip nat translations
 ```
 
 ![](Pasted-image-20260124121845.png)
+

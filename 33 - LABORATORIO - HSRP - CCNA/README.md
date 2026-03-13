@@ -89,25 +89,34 @@ R1(config-if)#standby 20 priority 90
 
 Para verificar
 Ahora si hacemos ping de PC1 a Internet
+
 ![](Pasted-image-20260217123540.png)
 
 Si desabilitamos R1.
+
 ![](Pasted-image-20260217123648.png)
+
 R2 toma relevo.
 
 Y cuando lo volvemos a habilitar.
+
 ![](Pasted-image-20260217123807.png)
+
 Ahora pasa por R1
 
 Ahora con R2
 Ahora si hacemos ping de PC3 a Internet
+
 ![](Pasted-image-20260217124937.png)
 
 Si desabilitamos R2.
+
 ![](Pasted-image-20260217125103.png)
+
 R1 toma relevo.
 
 Y cuando lo volvemos a habilitar.
+
 ![](Pasted-image-20260217125200.png)
 
 #### B) Troubleshooting
@@ -359,6 +368,8 @@ GW: 192.168.7.254
 Verificamos
 
 Si desabilitamos R1.
+
 ![](Pasted-image-20260217170313.png)
+
 R2 toma relevo.
 

@@ -213,3 +213,4 @@ En SW1 y R1:
 **8. Intente conectarse a cada dispositivo mediante SSH desde la PC1.**
 
 ![](Pasted-image-20260114115717.png)
+

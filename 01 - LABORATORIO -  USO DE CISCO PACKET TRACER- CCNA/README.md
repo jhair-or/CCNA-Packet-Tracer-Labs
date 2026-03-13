@@ -58,40 +58,50 @@ al servidor.
 **3. Hacer Ping y verificar**
 
 Ping de PC1 al Server
+
 ![](Pasted-image-20260308204631.png)
 
 Ping de PC1 a PC2
+
 ![](Pasted-image-20260308204655.png)
 
 Ping de PC1 a Laptop0
+
 ![](Pasted-image-20260308204725.png)
 
 **4. Simular envío de email**
 
 Activamos el servicio de EMAIL
+
 ![](Pasted-image-20260308204953.png)
 
 Creamos los usuarios
+
 ![](Pasted-image-20260308210012.png)
 
 Configurar los correos
 
 Desktop → **Email**
 En PC1
+
 ![](Pasted-image-20260308210051.png)
 
 En PC2
+
 ![](Pasted-image-20260308210109.png)
 
 En PC3
+
 ![](Pasted-image-20260308210324.png)
 
 **Verificar el email en Packet Tracer**
 
 De PC1 a Laptop0
+
 ![](Pasted-image-20260308210428.png)
 
 En Laptop0
+
 ![](Pasted-image-20260308210654.png)
 
 #### B)
@@ -99,8 +109,8 @@ En Laptop0
 **a. Topología de red**
 
 Armamos la Topologia
-![](Pasted-image-20260309000757.png)
 
+![](Pasted-image-20260309000757.png)
 
 Usaremos este **plan de direccionamiento**:
 
@@ -180,32 +190,38 @@ dns-server 192.168.25.2
 * Configure el servidor con IP fija y habilite servicios de DNS y HTTP.
 
 1. **IP manual:**
+
 ![](Pasted-image-20260308220309.png)
 
    2. **Servicio DNS**
+
 ![](Pasted-image-20260308220235.png)
 
   3. **Servicio HTTP**
+
 ![](Pasted-image-20260308220412.png)
 
 * En el Access Point, 
 Configure la red Wi-Fi con SSID: Residencia-WiFi y clave: campus2025.
+
 ![](Pasted-image-20260308220531.png)
 
 Conectar una Laptop al WiFi
 
 - **Desktop** -> Abrir **PC Wireless
+
 ![](Pasted-image-20260308221422.png)
 
 Ingresamos la contraseña
-![](Pasted-image-20260308221343.png)
 
+![](Pasted-image-20260308221343.png)
 
 **Pruebas de conectividad**
 Las laptops de estudiantes tengan conectividad entre sí y salida a Internet simulada.
 
 1) Ping entre dos laptops de estudiantes
 ping 192.168.15.X (IP de LAP-2)
+
 ![](Pasted-image-20260308224305.png)
 
 Ping al Router (salida a Internet simulada)
@@ -217,16 +233,21 @@ Router(config-if)#ip address 192.168.10.1 255.255.255.0
 ```
 
 Desde laptop 0
+
 ![](Pasted-image-20260308225335.png)
 
-
 2) Ping PC Administración → Servidor
+
 ![](Pasted-image-20260308224400.png)
 
 3) Navegador cargando www.residencia.edu
+
 ![](Pasted-image-20260308224425.png)
+
 http://www.residencia.edu carga correctamente la página del servidor
 
 4) Laptops: conexión Wi-Fi y dirección IP por DHCP
+
 ![](Pasted-image-20260308224729.png)
+
 Laptop conectada a Residencia-WiFi con IP asignada por DHCP

@@ -192,7 +192,6 @@ ipv6 unicast-routing
 ```
 Permite que el equipo reenvíe paquetes IPv6 entre interfaces, es decir, que actúe como router IPv6.
 
-
 ![](Pasted-image-20260112121850.png)
 
 **R1 debe tener una ruta por defecto hacia R2 con la IP link-local de R2 como argumento.**

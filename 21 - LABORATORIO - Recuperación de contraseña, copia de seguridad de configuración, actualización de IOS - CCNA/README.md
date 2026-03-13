@@ -1,6 +1,5 @@
 ## 21 - LABORATORIO - Recuperación de contraseña, copia de seguridad de configuración, actualización de IOS - CCNA
 
-
 ![](Pasted-image-20260126095840.png)
 
 1. Recuperar la contraseña en R1 (cambiar la clave secreta de habilitación a ccna):
@@ -15,6 +14,7 @@
 **1. Recuperar la contraseña en R1 (cambiar la clave secreta de habilitación a ccna):***
 
 ![](Pasted-image-20260126093838.png)
+
  
  Instrucciones para iniciar R1 en modo ROMMON en Packet Tracer:
 
