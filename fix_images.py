@@ -7,7 +7,7 @@ import shutil
 REPO_DIR = r"C:\Users\WINDOWS\Desktop\CCNA-Packet-Tracer-Labs"
 
 # 2. Ruta a la carpeta PRINCIPAL de Obsidian
-OBSIDIAN_IMG_DIR = r"C:\Obsidian" 
+OBSIDIAN_IMG_DIR = r"C:\Obsidian\ZZZZZZZZZZZZZZZZZZZZZ" 
 # ---------------------
 
 def fix_obsidian_images():
