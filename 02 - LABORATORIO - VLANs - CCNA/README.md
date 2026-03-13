@@ -1,3 +1,5 @@
+## 02 - LABORATORIO - VLANs - CCNA
+
 #### A) VLAN Configuration 
 ![[Pasted image 20260106171708.png]]
 
@@ -192,63 +194,3 @@ SW1#write
 Building configuration...
 [OK]
 ```
-
-#### C) VLAN Configuration: Trunk Encapsulation 
-
-**2. Asigne las PC2 y PC3 a la VLAN 2.***
-
-Configuración del **Switch 1**
-
-```
-Switch(config)#int fa0/3
-Switch(config-if)#switchport mode access
-Switch(config-if)#switchport access vlan 2
-% Access VLAN does not exist. Creating vlan 2
-```
-
-Configuración del **Switch 2**
-
-```
-Switch(config)#int fa0/2
-Switch(config-if)#switchport mode access
-Switch(config-if)#switchport access vlan 2
-% Access VLAN does not exist. Creating vlan 2
-```
-
-**3. Cree un enlace troncal entre SW1 y SW2.**
-
-Configuración del **Switch 1**
-
-```
-Switch(config-if)#int Fa0/1
-Switch(config-if)#switchport mode trunk
-Command rejected: An interface whose trunk encapsulation is "Auto" can not be configured to "trunk" mode.
-Switch(config-if)#switchport trunk encapsulation dot1
-Switch(config-if)#switchport mode trunk
-```
-
-El comando `switchport trunk encapsulation dot1q` define el método de encapsulación del enlace troncal.
-En Packet Tracer, si la encapsulación está en modo automático, el switch rechaza la configuración explícita de trunk hasta que se especifique 802.1Q.
-
-En switches reales modernos, el comando `switchport trunk encapsulation dot1q` ya no existe.
-CPT Packet Tracer sí es necesario en algunos modelos, por compatibilidad con modelos antiguos
-
-Configuración del **Switch 2**
-
-```
-Switch(config)#int Fa0/1
-Switch(config-if)#switchport trunk encapsulation dot1
-Switch(config-if)#switchport mode trunk
-```
-
-**4. Haga ping entre las PC para probar la conectividad.**
-
-Entre PC2 y PC3
-![[Pasted image 20260108122425.png]]
-Hay ping porque están en la misma vlan y hay una conexión troncal entre los dos switches.
-
-Entre PC1 y PC3
-![[Pasted image 20260108122545.png]]
-No hay ping, porque PC1 se quedo en la vlan nativa.
-
-
