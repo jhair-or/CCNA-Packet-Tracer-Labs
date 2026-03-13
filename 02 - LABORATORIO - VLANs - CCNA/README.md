@@ -1,7 +1,7 @@
 ## 02 - LABORATORIO - VLANs - CCNA
 
 #### A) VLAN Configuration 
-![[Pasted image 20260106171708.png]]
+![Configuracion VLAN](vlan-config-1.png)
 
 1) Haga ping entre las computadoras para probar la conectividad.
 2) Asigne PC1 y PC3 a la VL
