@@ -35,7 +35,7 @@
 ---
 #### A) VLAN Configuration
 
-**1) Haga ping entre las computadoras para probar la conectividad. **
+**1) Haga ping entre las computadoras para probar la conectividad.**
 
 Ping 
 ![[Pasted image 20260106171744.png]]
@@ -69,7 +69,7 @@ Switch(config-if)#switchport access vlan 2
 % Access VLAN does not exist. Creating vlan 2
 ```
 
-**3. Intente hacer ping entre PC1 y PC3, y luego entre PC2 y PC4. **
+**3. Intente hacer ping entre PC1 y PC3, y luego entre PC2 y PC4.**
 
 Ping PC1 y PC3
 ![[Pasted image 20260106171807.png]]
@@ -100,7 +100,7 @@ Switch(config)#int fa0/1
 Switch(config-if)#switchport mode trunk
 ```
 
-**5. Vuelva a hacer ping entre las computadoras. **
+**5. Vuelva a hacer ping entre las computadoras.**
 
 ¿Qué pings fallan y cuáles tienen éxito?
 Los que estan en la misma vlan hay exito en el ping, y fallan en los que tán en VLANs distintas.
@@ -114,7 +114,7 @@ y entrePC2 (10.0.0.2) y PC4 (10.0.0.4)
 
 #### B) Naming VLANs
 
-**1. Configure los nombres de host de los switches como SW1 y SW2, respectivamente. **
+**1. Configure los nombres de host de los switches como SW1 y SW2, respectivamente.**
 
 En Switch1
 
