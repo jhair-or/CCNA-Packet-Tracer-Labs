@@ -1,4 +1,3 @@
-
 ## 01 - LABORATORIO -  USO DE CISCO PACKET TRACER - CCNA
 
 #### A)
@@ -70,7 +69,7 @@ Ping de PC1 a Laptop0
 **4. Simular envío de email**
 
 Activamos el servicio de EMAIL
-![](Pasted-image-20260308204953.png|697)
+![](Pasted-image-20260308204953.png)
 
 Creamos los usuarios
 ![](Pasted-image-20260308210012.png)
@@ -100,7 +99,7 @@ En Laptop0
 **a. Topología de red**
 
 Armamos la Topologia
-![](Pasted-image-20260309000757.png|697)
+![](Pasted-image-20260309000757.png)
 
 
 Usaremos este **plan de direccionamiento**:
