@@ -1,4 +1,4 @@
-# 🌐 CCNA 200-301 - Packet Tracer Labs
+# 🌐📡 CCNA 200-301 - Packet Tracer Labs
 
 Prácticas y laboratorios de redes realizados en Cisco Packet Tracer como parte de la preparación para la certificación CCNA 200-301.
 
