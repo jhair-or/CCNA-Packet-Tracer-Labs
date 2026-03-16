@@ -15,32 +15,33 @@ Comprobar conectividad en la red local
 **Práctica calificada**
 a. Topología de red
 Dispositivos mínimos:
-• 1 router inalámbrico con acceso simulado a Internet.
-• 2 switches (uno para estudiantes y otro para administración).
-• 6 PCs para administración.
-• 1 servidor interno (portal de usuarios + DNS).
-• 6 laptops conectadas por Wi-Fi (estudiantes).
+* 1 router inalámbrico con acceso simulado a Internet.
+* 2 switches (uno para estudiantes y otro para administración).
+* 6 PCs para administración.
+* 1 servidor interno (portal de usuarios + DNS).
+* 6 laptops conectadas por Wi-Fi (estudiantes).
 b. Configuración
 Cree 2 VLANs:
-• Cree 2 VLANs:
-• VLAN 15: Estudiantes.
-• VLAN 25: Administración + Servidor.
-• Configure el router para inter-VLAN routing.
-• Configure DHCP con rangos distintos para cada VLAN.
-• Configure el servidor con IP fija y habilite servicios de DNS y HTTP.
-• Configure la red Wi-Fi con SSID: Residencia-WiFi y clave:
-campus2025.
+* Cree 2 VLANs:
+* VLAN 15: Estudiantes.
+* VLAN 25: Administración + Servidor.
+* Configure el router para inter-VLAN routing.
+* Configure DHCP con rangos distintos para cada VLAN.
+* Configure el servidor con IP fija y habilite servicios de DNS y HTTP.
+* Configure la red Wi-Fi con SSID: Residencia-WiFi y clave:
+  campus2025.
 **Pruebas de conectividad**
 Verifique que:
-• Las laptops de estudiantes tengan conectividad entre sí y salida a Internet
+* Las laptops de estudiantes tengan conectividad entre sí y salida a Internet
 simulada.
-• Los PCs administrativos puedan acceder al servidor interno.
-• Los estudiantes accedan al portal escribiendo www.residencia.edu
-en el navegador.
-• La administración tenga conectividad restringida únicamente a su VLAN y
-al servidor.
+* Los PCs administrativos puedan acceder al servidor interno.
+* Los estudiantes accedan al portal escribiendo www.residencia.edu
+  en el navegador.
+* La administración tenga conectividad restringida únicamente a su VLAN y
+  al servidor.
 
 ---
+
 #### A)
 
 **1. Tarea: Crear red con 2PC, laptop wifi + 1 switch**
