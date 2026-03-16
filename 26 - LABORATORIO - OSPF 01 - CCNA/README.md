@@ -6,7 +6,7 @@
 
 #### B) Single Area
 
-![](Pasted-image-20260129102604.png)
+![](img/Pasted-image-20260129102604.png)
 
 1. Configure una dirección de loopback en cada enrutador (1.1.1.1/32 para R1, 2.2.2.2/32 para R2, etc.)
 2. Configure OSPF en cada enrutador. Anuncie todas las interfaces, incluido el loopback.

@@ -21,7 +21,7 @@ En PC2
 C:\>ping 10.0.1.0
 ```
 
-![](Pasted-image-20260218120453.png)
+![](img/Pasted-image-20260218120453.png)
 
 **3. Confirme SPAN en SW1 para enviar el tráfico de entrada y salida de G0/1 a SRV1.**
 

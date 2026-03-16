@@ -21,7 +21,7 @@
 
 #### B) PPP Troubleshooting
 
-![](Pasted-image-20260130111218.png)
+![](img/Pasted-image-20260130111218.png)
 
 Las conexiones PPP se han configurado según el diagrama.
 Sin embargo, se ha producido una configuración incorrecta por dispositivo de red, lo que afecta la conectividad.

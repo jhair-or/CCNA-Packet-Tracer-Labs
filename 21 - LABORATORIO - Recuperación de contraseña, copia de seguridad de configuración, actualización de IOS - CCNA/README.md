@@ -13,7 +13,7 @@
 
 **1. Recuperar la contraseña en R1 (cambiar la clave secreta de habilitación a ccna):***
 
-![](Pasted-image-20260126093838.png)
+![](img/Pasted-image-20260126093838.png)
 
  
  Instrucciones para iniciar R1 en modo ROMMON en Packet Tracer:

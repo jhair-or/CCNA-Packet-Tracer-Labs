@@ -24,7 +24,7 @@ R2 debe ser configurado con todas las rutas faltantes específicas.
 
 #### B) IPv6
 
-![](Pasted-image-20260127102932.png)
+![](img/Pasted-image-20260127102932.png)
 
 1. Habilite IPv6 en R1, R2 y R3 y configure las direcciones IPv6 en: 
    Interfaces G0/0 y G0/1 de R1 

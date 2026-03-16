@@ -40,7 +40,7 @@ Ping a PC4
 
 Ping a PC4
 
-![](Pasted-image-20260120092040.png)
+![](img/Pasted-image-20260120092040.png)
 
 **Además asegúrese que la red 20.0.0.0/24 no pueda ingresar a la red 10.0.0.0/24.**
 

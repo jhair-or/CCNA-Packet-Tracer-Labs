@@ -379,7 +379,7 @@ SW2(config-if)#switchport port-security mac-address 000A.F369.4165
 
 **7. Haga ping de PC1 a PC2. ¿Qué sucede?**
 
-![](Pasted-image-20260114104944.png)
+![](img/Pasted-image-20260114104944.png)
 
 No hay conexion.
 

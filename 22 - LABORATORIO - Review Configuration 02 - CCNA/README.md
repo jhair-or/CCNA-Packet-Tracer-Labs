@@ -285,7 +285,7 @@ R1(dhcp-config)#dns-server 30.0.0.100
 
 
 
-![](Pasted-image-20260127101609.png)
+![](img/Pasted-image-20260127101609.png)
 
 **5. No se puede conectar a R1 mediante SSH.**
 

@@ -46,7 +46,7 @@ simulada.
 
 **1. Tarea: Crear red con 2PC, laptop wifi + 1 switch**
 
-![](Pasted-image-20260308204343.png)
+![](img/Pasted-image-20260308204343.png)
 
 **2. Asignar IPs manuales**
 
@@ -64,7 +64,7 @@ Ping de PC1 al Server
 
 Ping de PC1 a PC2
 
-![](Pasted-image-20260308204655.png)
+![](img/Pasted-image-20260308204655.png)
 
 Ping de PC1 a Laptop0
 
@@ -196,7 +196,7 @@ dns-server 192.168.25.2
 
    2. **Servicio DNS**
 
-![](Pasted-image-20260308220235.png)
+![](img/Pasted-image-20260308220235.png)
 
   3. **Servicio HTTP**
 

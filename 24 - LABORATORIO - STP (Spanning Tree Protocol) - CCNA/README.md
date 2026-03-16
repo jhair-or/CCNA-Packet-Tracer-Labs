@@ -18,7 +18,7 @@
 
 #### B) STP Election
 
-![](Pasted-image-20260127103745.png)
+![](img/Pasted-image-20260127103745.png)
 
 Intenta resolver estas preguntas SIN USAR LA CLI:
 VLAN 1

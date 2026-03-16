@@ -20,7 +20,7 @@ Ha completado el laboratorio correctamente cuando cada PC pueda hacer ping a cua
 
 #### C)
 
-![](Pasted-image-20260118130050.png)
+![](img/Pasted-image-20260118130050.png)
 
 (RIP está configurado en todas las interfaces del enrutador, excepto entre R1 y R3).
 R1 recibe su ruta a 10.0.0.0/24 a través de RIP en su interfaz S3/0.
@@ -100,7 +100,7 @@ R2(config)#ip route 192.168.1.0 255.255.255.0 10.0.0.1
 
 
 
-![](Pasted-image-20260118123402.png)
+![](img/Pasted-image-20260118123402.png)
 
 #### B)
 

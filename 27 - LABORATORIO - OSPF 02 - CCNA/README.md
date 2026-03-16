@@ -30,7 +30,7 @@
 
 #### B) OSPF Troubleshooting
 
-![](Pasted-image-20260129105638.png)
+![](img/Pasted-image-20260129105638.png)
 
 Los enrutadores de la red no reciben las rutas que deberían de OSPF.
 R5 no recibe la ruta de resumen 10.0.0.0/8 que debería.

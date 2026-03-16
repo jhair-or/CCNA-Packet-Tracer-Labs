@@ -13,7 +13,7 @@ Ha completado con éxito el laboratorio cuando DTP está deshabilitado y hay con
 
 #### B) VTP (VLAN Trunking Protocol)
 
-![](Pasted-image-20260124124300.png)
+![](img/Pasted-image-20260124124300.png)
 
 1. Configure los puertos de switch que conectan los switches como puertos troncales.
    Desactive DTP en los puertos.

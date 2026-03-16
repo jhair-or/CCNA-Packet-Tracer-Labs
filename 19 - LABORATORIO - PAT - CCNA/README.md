@@ -37,7 +37,7 @@ Ping en UniNET
 
 Ping en XYZ.COM
 
-![](Pasted-image-20260124103831.png)
+![](img/Pasted-image-20260124103831.png)
 
 Ping en Webhosting Pro
 
@@ -171,7 +171,7 @@ Ping de Laptop0(UniNET) al ISP
 
 Ping de Laptop1(XYZ.com) al ISP
 
-![](Pasted-image-20260124115638.png)
+![](img/Pasted-image-20260124115638.png)
 
 Ping de Laptop 0(UniNET) y Laptop2(XYZ.com) al Server(Webhosting Pro) 
 
@@ -227,5 +227,5 @@ R1(config)#ip nat inside source list 1 interface s0/3/0 overload
 R1#sh ip nat translations
 ```
 
-![](Pasted-image-20260124121845.png)
+![](img/Pasted-image-20260124121845.png)
 

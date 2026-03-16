@@ -12,7 +12,7 @@
 
 #### B) Dynamic NAT
 
-![](Pasted-image-20260122121736.png)
+![](img/Pasted-image-20260122121736.png)
 
 1. RIP se ha configurado para que R1 y R2 puedan acceder a sus redes internas.
    ¿Por qué PC1, PC2 y PC3 no pueden hacer ping a SRV1 correctamente?
@@ -64,7 +64,7 @@ Ping exitoso.
    ¿Por qué PC1, PC2 y PC3 no pueden hacer ping a SRV1 correctamente?
    (Pista: La conexión serial entre R1 y R2 simula Internet con ACL).
 
-![](Pasted-image-20260123110115.png)
+![](img/Pasted-image-20260123110115.png)
 
 **2. Configure NAT dinámica en R1 para traducir la subred 192.168.1.0/24 al rango de direcciones 1.2.3.10 - 1.2.3.20.**
 
@@ -101,5 +101,5 @@ Ping exitoso.
 R1#show ip nat translations
 ```
 
-![](Pasted-image-20260123112627.png)
+![](img/Pasted-image-20260123112627.png)
 

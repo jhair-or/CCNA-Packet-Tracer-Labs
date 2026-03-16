@@ -164,7 +164,7 @@ Solucione los siguientes problemas de red:
 
 **1. La PC2 no puede hacer ping a la PC1.**
 
-![](Pasted-image-20260218131523.png)
+![](img/Pasted-image-20260218131523.png)
 
 En R2
 ```
@@ -187,7 +187,7 @@ R2(config)#ip route 0.0.0.0 0.0.0.0 g0/0/0
 
 **2. La PC4 no puede hacer ping a la PC3.***
 
-![](Pasted-image-20260218133130.png)
+![](img/Pasted-image-20260218133130.png)
 
 En R4
 ```

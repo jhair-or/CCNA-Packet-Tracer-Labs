@@ -111,7 +111,7 @@ ip default-gateway 192.168.1.1
 ```
 Indica por dónde salir cuando necesita comunicarse con equipos que no están en su misma subred
 
-![](Pasted-image-20260114113914.png)
+![](img/Pasted-image-20260114113914.png)
 
 ---
 #### SSH

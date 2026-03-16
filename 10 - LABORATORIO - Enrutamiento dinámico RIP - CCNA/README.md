@@ -15,7 +15,7 @@ Instrucciones:
 6) R2 tiene una ruta por defecto apuntando a una interfaz Nullo. Tanto R1 como R3 deben conocer esa ruta a través de RIP
 #### B)
 
-![](Pasted-image-20260117125541.png)
+![](img/Pasted-image-20260117125541.png)
 
 1. Paso 1: Configure RIP (no habilite la versión 2) en R1 y R2, y anuncie las redes en cada una de sus interfaces.
 2. Paso 2: Después de dar tiempo a RIP para que converja, revise la tabla de enrutamiento de R1. ¿Qué ruta ha aprendido?

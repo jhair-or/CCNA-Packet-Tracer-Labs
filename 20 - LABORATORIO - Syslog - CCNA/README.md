@@ -25,7 +25,7 @@
 
    - Tras recibir un mensaje de syslog, vuelva a habilitar la interfaz.
 
-![](Pasted-image-20260125160405.png)
+![](img/Pasted-image-20260125160405.png)
 
    - ¿Cuál es la gravedad de los mensajes de syslog?
 
@@ -121,7 +121,7 @@ Log Buffer (8192 bytes):
 R1(config)#logging 192.168.1.100
 ```
 
-![](Pasted-image-20260125182020.png)
+![](img/Pasted-image-20260125182020.png)
 
 
 

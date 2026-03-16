@@ -13,7 +13,7 @@ Configurar HSRP con los siguientes requisitos:
 
 #### B) Troubleshooting
 
-![](Pasted-image-20260215171539.png)
+![](img/Pasted-image-20260215171539.png)
 
 HSRP se ha configurado con los siguientes requisitos:
 - Usar HSRP versión 2
@@ -94,7 +94,7 @@ Ahora si hacemos ping de PC1 a Internet
 
 Si desabilitamos R1.
 
-![](Pasted-image-20260217123648.png)
+![](img/Pasted-image-20260217123648.png)
 
 R2 toma relevo.
 

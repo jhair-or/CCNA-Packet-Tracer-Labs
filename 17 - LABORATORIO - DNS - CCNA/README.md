@@ -35,7 +35,7 @@ R1(dhcp-config)#default-router 192.168.1.1
 
 Ping por dirección IP
 
-![](Pasted-image-20260123093125.png)
+![](img/Pasted-image-20260123093125.png)
 
 Ping por su nombre
 

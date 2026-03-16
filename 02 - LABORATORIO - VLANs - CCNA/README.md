@@ -13,7 +13,7 @@
 
 #### B) Naming VLANs
 
-![](Pasted-image-20260110153401.png)
+![](img/Pasted-image-20260110153401.png)
 
 1. Configure los nombres de host de los switches como SW1 y SW2, respectivamente. 
 2. Cree dos VLAN en cada switch con los siguientes nombres:
@@ -79,7 +79,7 @@ Ping PC1 y PC3
 
 Ping PC2 y PC4
 
-![](Pasted-image-20260106171820.png)
+![](img/Pasted-image-20260106171820.png)
 
 ¿Por qué funciona el ping entre PC1 y PC3, pero no entre PC2 y PC4?
 
@@ -259,6 +259,6 @@ Hay ping porque están en la misma vlan y hay una conexión troncal entre los do
 
 Entre PC1 y PC3
 
-![](Pasted-image-20260108122545.png)
+![](img/Pasted-image-20260108122545.png)
 
 No hay ping, porque PC1 se quedo en la vlan nativa.

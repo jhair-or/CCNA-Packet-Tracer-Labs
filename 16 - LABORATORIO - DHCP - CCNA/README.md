@@ -102,7 +102,7 @@ Mode access porque no vamos a usar VLANs aquí.
 
 6. **Compruebe que la PC pueda hacer ping al loopback del Router1**
 
-![](Pasted-image-20260106171651.png)
+![](img/Pasted-image-20260106171651.png)
 
 #### B)
 
@@ -167,7 +167,7 @@ IPs que le asignaron a PC1 y PC2
 
 
 
-![](Pasted-image-20260122113641.png)
+![](img/Pasted-image-20260122113641.png)
 
 **2. PC3 debe recibir el direccionamiento IP correcto que le permita conectarse al resto de la red. Para la red 192.168.30.0/24 el servidor DHCP debe ser la máquina remota conectada a R4.**
 
@@ -202,7 +202,7 @@ En el DHCP Server
 
 IP que se le asigno a PC3
 
-![](Pasted-image-20260122113947.png)
+![](img/Pasted-image-20260122113947.png)
 
 #### C)
 
@@ -254,7 +254,7 @@ En PC1
 
 En PC2
 
-![](Pasted-image-20260122115743.png)
+![](img/Pasted-image-20260122115743.png)
 
 **2. Configure la interfaz G0/0 de R2 como cliente DHCP y luego habilite la interfaz.**
 
@@ -279,5 +279,5 @@ En PC3
 
 En PC4
 
-![](Pasted-image-20260122120700.png)
+![](img/Pasted-image-20260122120700.png)
 

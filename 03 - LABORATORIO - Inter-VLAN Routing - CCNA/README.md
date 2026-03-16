@@ -6,7 +6,7 @@
 
 #### B) Inter-VLAN Routing
 
-![](Pasted-image-20260109130349.png)
+![](img/Pasted-image-20260109130349.png)
 
 1. Haga ping entre las PC. ¿Qué pings son exitosos?
 2. Asigne PC1 y PC3 a la VLAN 13, y PC2 y PC4 a la VLAN 24.

@@ -76,7 +76,7 @@ Vemos la pagina web desde la PC2 `10.0.0.2`
 
 Desde la PC1
 
-![](Pasted-image-20260121112822.png)
+![](img/Pasted-image-20260121112822.png)
 
 Ping desde PC2 `10.0.0.2`
 
@@ -88,7 +88,7 @@ Ping de `10.0.0.0/24` a `20.0.0.0/24`
 
 
 
-![](Pasted-image-20260121113045.png)
+![](img/Pasted-image-20260121113045.png)
 
 ```
 Router#show access-lists
@@ -131,7 +131,7 @@ Ping a diferentes puntos de la red
 
 Pero si se logra hacer ping al servidor
 
-![](Pasted-image-20260121114609.png)
+![](img/Pasted-image-20260121114609.png)
 
 **5. Solamente el host 10.0.0.1 tiene permitido hacer telnet a los routers.**
 
@@ -177,7 +177,7 @@ int Gig0/0
 
 
 
-![](Pasted-image-20260121125113.png)
+![](img/Pasted-image-20260121125113.png)
 
 **3) PC1 no debe poder acceder de ningún modo a la LAN de R3**
 

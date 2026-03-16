@@ -9,7 +9,7 @@
 
 #### B) Troubleshooting
 
-![](Pasted-image-20260210120749.png)
+![](img/Pasted-image-20260210120749.png)
 
 Requisitos: El túnel GRE entre R1 y R2 debe funcionar con EIGRP para proporcionar conectividad entre las redes 10.0.1.0/24 y 10.0.2.0/24.
 Hay dos configuraciones incorrectas por enrutador.
