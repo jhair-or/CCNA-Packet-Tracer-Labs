@@ -2,7 +2,7 @@
 
 #### A) NAT/PAT
 
-![](img/Pasted-image-20260124103420.png)
+![](Pasted-image-20260124103420.png)
 
 1. Verificar conectividad inicial dentro de la red de cada empresa. 
    Los hosts internos deberán al menos alcanzar con ping la dirección IP pública de su router de borde. 2
@@ -16,7 +16,7 @@
 
 #### B) PAT
 
-![](img/Pasted-image-20260122122855.png)
+![](Pasted-image-20260122122855.png)
 
 1. RIP se ha configurado para que R1 y R2 puedan acceder a sus redes internas.
    ¿Por qué PC1, PC2 y PC3 no pueden hacer ping correctamente a SRV1?
@@ -33,11 +33,11 @@
 
 Ping en UniNET
 
-![](img/Pasted-image-20260124103626.png)
+![](Pasted-image-20260124103626.png)
 
 Ping en XYZ.COM
 
-![](img/Pasted-image-20260124103831.png)
+![](Pasted-image-20260124103831.png)
 
 Ping en Webhosting Pro
 
@@ -167,11 +167,11 @@ interface g0/0
 
 Ping de Laptop0(UniNET) al ISP
 
-![](img/Pasted-image-20260124115546.png)
+![](Pasted-image-20260124115546.png)
 
 Ping de Laptop1(XYZ.com) al ISP
 
-![](img/Pasted-image-20260124115638.png)
+![](Pasted-image-20260124115638.png)
 
 Ping de Laptop 0(UniNET) y Laptop2(XYZ.com) al Server(Webhosting Pro) 
 
@@ -221,11 +221,11 @@ R1(config)#ip nat inside source list 1 interface s0/3/0 overload
 
 **3. Haga ping desde cada PC a SRV1 y luego use el comando "show" en R1 para verificar las traducciones.**
 
-![](img/Pasted-image-20260124121745.png)
+![](Pasted-image-20260124121745.png)
 
 ```
 R1#sh ip nat translations
 ```
 
-![](img/Pasted-image-20260124121845.png)
+![](Pasted-image-20260124121845.png)
 

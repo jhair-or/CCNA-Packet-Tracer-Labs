@@ -2,7 +2,7 @@
 
 #### A)
 
-![](img/Pasted-image-20260130111049.png)
+![](Pasted-image-20260130111049.png)
 
 1. Configure PPP con autenticación PAP bidireccional entre R1 y SPR1.
    (Solo puede configurar R1; SPR1 está preconfigurado).
@@ -21,7 +21,7 @@
 
 #### B) PPP Troubleshooting
 
-![](img/Pasted-image-20260130111218.png)
+![](Pasted-image-20260130111218.png)
 
 Las conexiones PPP se han configurado según el diagrama.
 Sin embargo, se ha producido una configuración incorrecta por dispositivo de red, lo que afecta la conectividad.

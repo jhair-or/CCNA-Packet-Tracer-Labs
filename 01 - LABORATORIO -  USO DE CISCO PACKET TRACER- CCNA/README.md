@@ -2,7 +2,7 @@
 
 #### A)
 
-![](img/Pasted-image-20260308184957.png)
+![](Pasted-image-20260308184957.png)
 
 Comprobar conectividad en la red local
 1. Tarea: Crear red con 2PC, laptop wifi + 1 switch
@@ -46,7 +46,7 @@ simulada.
 
 **1. Tarea: Crear red con 2PC, laptop wifi + 1 switch**
 
-![](img/Pasted-image-20260308204343.png)
+![](Pasted-image-20260308204343.png)
 
 **2. Asignar IPs manuales**
 
@@ -60,11 +60,11 @@ simulada.
 
 Ping de PC1 al Server
 
-![](img/Pasted-image-20260308204631.png)
+![](Pasted-image-20260308204631.png)
 
 Ping de PC1 a PC2
 
-![](img/Pasted-image-20260308204655.png)
+![](Pasted-image-20260308204655.png)
 
 Ping de PC1 a Laptop0
 
@@ -192,11 +192,11 @@ dns-server 192.168.25.2
 
 1. **IP manual:**
 
-![](img/Pasted-image-20260308220309.png)
+![](Pasted-image-20260308220309.png)
 
    2. **Servicio DNS**
 
-![](img/Pasted-image-20260308220235.png)
+![](Pasted-image-20260308220235.png)
 
   3. **Servicio HTTP**
 
@@ -249,6 +249,6 @@ http://www.residencia.edu carga correctamente la página del servidor
 
 4) Laptops: conexión Wi-Fi y dirección IP por DHCP
 
-![](img/Pasted-image-20260308224729.png)
+![](Pasted-image-20260308224729.png)
 
 Laptop conectada a Residencia-WiFi con IP asignada por DHCP

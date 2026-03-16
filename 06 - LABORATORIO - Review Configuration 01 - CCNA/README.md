@@ -2,7 +2,7 @@
 
 ### A)
 
-![](img/Pasted-image-20260113142801.png)
+![](Pasted-image-20260113142801.png)
 
 1. Configure los nombres de host de R1, SW1 y SW2 según el diagrama.
 2. Configure una clave secreta de habilitación de "CCNA" para cada dispositivo de red.
@@ -164,7 +164,7 @@ SW1(config-if)#switchport mode trunk
 
 **7. Haga ping entre las PC para confirmar la conectividad completa, incluso entre diferentes VLAN.**
 
-![](img/Pasted-image-20260116114149.png)
+![](Pasted-image-20260116114149.png)
 
 ### **B)**
 
@@ -276,5 +276,5 @@ R1(config-subif)#no ip address 10.0.0.1 255.255.255.0
 
 Finalmente se logra hacer ping entre todas las PCs
 
-![](img/Pasted-image-20260116121923.png)
+![](Pasted-image-20260116121923.png)
 

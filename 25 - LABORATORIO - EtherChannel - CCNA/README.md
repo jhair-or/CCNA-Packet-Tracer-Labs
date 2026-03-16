@@ -2,7 +2,7 @@
 
 #### A) EtherChannel
 
-![](img/Pasted-image-20260127104529.png)
+![](Pasted-image-20260127104529.png)
 
 1. Analice la topología desde la perspectiva del protocolo de árbol de expansión:
    ¿Qué switch es el puente raíz?
@@ -14,7 +14,7 @@
 
 #### B) Link aggregation/Etherchannels
 
-![](img/Pasted-image-20260202121041.png)
+![](Pasted-image-20260202121041.png)
 
 1. Crear las VLANs 10 y 20 en todos los switches. Usa los bloques IP 192.168.10.0/24 y 192.168.20.0/24 para asignar las direcciones IP .1, .2 y .3 en cada switch respectivamente
 2. Levantar un Etherchannel de tipo LACP entre S1 y S3 y verificar que funcione en modo trunk
@@ -23,7 +23,7 @@
 
 #### C) EtherChannel Troubleshooting
 
-![](img/Pasted-image-20260127104927.png)
+![](Pasted-image-20260127104927.png)
 
 Los EtherChannels de la red no funcionan correctamente.
 Solucione los problemas.

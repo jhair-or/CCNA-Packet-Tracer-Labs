@@ -2,7 +2,7 @@
 
 #### A)
 
-![](img/Pasted-image-20260123113617.png)
+![](Pasted-image-20260123113617.png)
 
 1. Configure RIP entre R1, R2 y R3, anunciando todas las redes conectadas.  
    - Usar RIP versión 2
@@ -31,7 +31,7 @@
    Módulo de clave: 1024 bits
 #### B) Troubleshooting
 
-![](img/Pasted-image-20260123113820.png)
+![](Pasted-image-20260123113820.png)
 
 Solucione y solucione los siguientes problemas de red (en orden):
 1. R2 y R3 no reciben una ruta RIP a 192.168.1.0/24 desde R1.
@@ -201,7 +201,7 @@ R1(config-router)#no passive-interface g0/1
 
 **2. Los hosts de la red 192.168.2.0/24 no reciben direcciones IP mediante DHCP.**
 
-![](img/Pasted-image-20260127095821.png)
+![](Pasted-image-20260127095821.png)
 
 Debido a que el servidor DHCP no esta conectado directamente a 192.168.2.0/24 podria haber un problema con el agente de retransmición DHCP R2
 
@@ -218,7 +218,7 @@ R2(config)#int g0/0
 R2(config-if)#ip helper-address 1.2.3.1
 ```
 
-![](img/Pasted-image-20260127100322.png)
+![](Pasted-image-20260127100322.png)
 
 **3. PAT no funciona en R1.**
 
@@ -281,11 +281,11 @@ R1(config)#ip dhcp pool 1pool
 R1(dhcp-config)#dns-server 30.0.0.100
 ```
 
-![](img/Pasted-image-20260127101543.png)
+![](Pasted-image-20260127101543.png)
 
 
 
-![](img/Pasted-image-20260127101609.png)
+![](Pasted-image-20260127101609.png)
 
 **5. No se puede conectar a R1 mediante SSH.**
 

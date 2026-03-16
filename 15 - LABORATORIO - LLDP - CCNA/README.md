@@ -1,6 +1,6 @@
 ## 15 - LABORATORIO - LLDP (Link Layer Discovery Protocol) - CCNA
 
-![](img/Pasted-image-20260118145228.png)
+![](Pasted-image-20260118145228.png)
 
 (Asegúrese de que las opciones "Mostrar etiquetas de modelo de dispositivo" y "Mostrar siempre etiquetas de puerto en el espacio de trabajo lógico" en el menú Opciones -> Preferencias estén deshabilitadas).
 

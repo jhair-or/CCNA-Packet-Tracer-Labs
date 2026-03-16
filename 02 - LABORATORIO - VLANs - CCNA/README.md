@@ -2,7 +2,7 @@
 
 #### A) VLAN Configuration 
 
-![](img/Pasted-image-20260106171708.png)
+![](Pasted-image-20260106171708.png)
 
 1) Haga ping entre las computadoras para probar la conectividad.
 2) Asigne PC1 y PC3 a la VL
@@ -13,7 +13,7 @@
 
 #### B) Naming VLANs
 
-![](img/Pasted-image-20260110153401.png)
+![](Pasted-image-20260110153401.png)
 
 1. Configure los nombres de host de los switches como SW1 y SW2, respectivamente. 
 2. Cree dos VLAN en cada switch con los siguientes nombres:
@@ -75,11 +75,11 @@ Switch(config-if)#switchport access vlan 2
 
 Ping PC1 y PC3
 
-![](img/Pasted-image-20260106171807.png)
+![](Pasted-image-20260106171807.png)
 
 Ping PC2 y PC4
 
-![](img/Pasted-image-20260106171820.png)
+![](Pasted-image-20260106171820.png)
 
 ¿Por qué funciona el ping entre PC1 y PC3, pero no entre PC2 y PC4?
 
@@ -158,7 +158,7 @@ SW1(config-vlan)#name INGENIERIA
 SW1(config-vlan)#do show vlan brief
 ```
 
-![](img/Pasted-image-20260110154054.png)
+![](Pasted-image-20260110154054.png)
 
 **3. Configure un enlace troncal entre SW1 y SW2 y configure un enlace troncal entre SW1 y SW2.**
 En SW1
@@ -253,12 +253,12 @@ Switch(config-if)#switchport mode trunk
 
 Entre PC2 y PC3
 
-![](img/Pasted-image-20260108122425.png)
+![](Pasted-image-20260108122425.png)
 
 Hay ping porque están en la misma vlan y hay una conexión troncal entre los dos switches.
 
 Entre PC1 y PC3
 
-![](img/Pasted-image-20260108122545.png)
+![](Pasted-image-20260108122545.png)
 
 No hay ping, porque PC1 se quedo en la vlan nativa.

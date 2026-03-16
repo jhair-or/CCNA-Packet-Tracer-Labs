@@ -2,13 +2,13 @@
 
 #### A)
 
-![](img/Pasted-image-20260216133419.png)
+![](Pasted-image-20260216133419.png)
 
 - Publicar las interfaces loopback en el otro sistema autónomo.
   Lo0 y Lo1 son direcciones publicas y `10.0.0./30` y `192168.0.0/30` son direcciones privadas
 #### B)
 
-![](img/Pasted-image-20260210114807.png)
+![](Pasted-image-20260210114807.png)
 
 1. Intente hacer ping al servidor remoto en 15.0.0.1 desde R2 o R3.
 2. Configure eBGP desde R1 a SPR1 (SPR1 está preconfigurado).
@@ -19,7 +19,7 @@
 
 #### C) Troubleshooting
 
-![](img/Pasted-image-20260210114913.png)
+![](Pasted-image-20260210114913.png)
 
 El R1 está configurado para:
 - Establecer un peering eBGP con SPR1

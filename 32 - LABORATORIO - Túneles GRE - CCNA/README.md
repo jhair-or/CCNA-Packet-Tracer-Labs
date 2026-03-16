@@ -2,14 +2,14 @@
 
 #### A)
 
-![](img/Pasted-image-20260210120738.png)
+![](Pasted-image-20260210120738.png)
 
 1. Configure un túnel GRE para conectar R1 y R2.
 2. Configure EIGRP en R1 y R2 a través del túnel GRE para que PC1 y PC2 puedan comunicarse entre sí.
 
 #### B) Troubleshooting
 
-![](img/Pasted-image-20260210120749.png)
+![](Pasted-image-20260210120749.png)
 
 Requisitos: El túnel GRE entre R1 y R2 debe funcionar con EIGRP para proporcionar conectividad entre las redes 10.0.1.0/24 y 10.0.2.0/24.
 Hay dos configuraciones incorrectas por enrutador.
@@ -68,7 +68,7 @@ R2(config-router)#net 192.168.1.0 0.0.0.3
 
 Hacemos un ping de PC1 a PC2
 
-![](img/Pasted-image-20260217105915.png)
+![](Pasted-image-20260217105915.png)
 
 #### B) Troubleshooting
 
@@ -153,5 +153,5 @@ R2(config)#ip route 0.0.0.0 0.0.0.0 200.0.0.1
 
 Verificamos con un ping de PC2 a PC1.
 
-![](img/Pasted-image-20260217112611.png)
+![](Pasted-image-20260217112611.png)
 

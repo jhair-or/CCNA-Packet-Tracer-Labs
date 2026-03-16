@@ -2,7 +2,7 @@
 
 #### A)
 
-![](img/Pasted-image-20260117124857.png)
+![](Pasted-image-20260117124857.png)
 
 1. Configure las interfaces G0/0 y G0/1 de R1 y R2 según el diagrama de red y habilítelas.
 2. Desde la PC1, haga ping a la interfaz G0/1 de R1, a la interfaz G0/0 de R1, a la interfaz G0/0 de R2, a la interfaz G0/1 de R2 y, finalmente, a la PC2. ¿Qué pings son correctos? ¿Cuáles fallan?
@@ -13,14 +13,14 @@ Pruebe con ping o tracert desde cada PC.
 
 #### B)
 
-![](img/Pasted-image-20260117124927.png)
+![](Pasted-image-20260117124927.png)
 
 Configure rutas estáticas en cada enrutador para permitir la conectividad completa en toda la red.
 Ha completado el laboratorio correctamente cuando cada PC pueda hacer ping a cualquier otro punto de la red.
 
 #### C)
 
-![](img/Pasted-image-20260118130050.png)
+![](Pasted-image-20260118130050.png)
 
 (RIP está configurado en todas las interfaces del enrutador, excepto entre R1 y R3).
 R1 recibe su ruta a 10.0.0.0/24 a través de RIP en su interfaz S3/0.
@@ -59,7 +59,7 @@ R2(config-if)#no shut
 
 **2. Desde la PC1, haga ping a la interfaz G0/1 de R1, a la interfaz G0/0 de R1, a la interfaz G0/0 de R2, a la interfaz G0/1 de R2 y, finalmente, a la PC2. ¿Qué pings son correctos? ¿Cuáles fallan?**
 
-![](img/Pasted-image-20260118121300.png)
+![](Pasted-image-20260118121300.png)
 
 Ping a G0/1 de R1, 
 FUNCIONA, PC1 y R1 están en la misma red
@@ -78,7 +78,7 @@ FALLA, R1 no conoce la red 192.168.2.0/24.
 
 De misma manera para con PC2
 
-![](img/Pasted-image-20260118122631.png)
+![](Pasted-image-20260118122631.png)
 
 Llega a hacer ping a G0/0 y a G0/1 de R2.
 
@@ -96,11 +96,11 @@ R2(config)#ip route 192.168.1.0 255.255.255.0 10.0.0.1
 
 **Pruebe con ping o tracert desde cada PC.**
 
-![](img/Pasted-image-20260118123345.png)
+![](Pasted-image-20260118123345.png)
 
 
 
-![](img/Pasted-image-20260118123402.png)
+![](Pasted-image-20260118123402.png)
 
 #### B)
 

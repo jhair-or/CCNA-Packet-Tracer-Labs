@@ -2,7 +2,7 @@
 
 #### A)
 
-![](img/Pasted-image-20260106171605.png)
+![](Pasted-image-20260106171605.png)
 
 Configure DHCP en el Router1 de la siguiente manera:
 1) Rango de direcciones excluidas: 10.1.1.1 a 10.1.1.100
@@ -14,7 +14,7 @@ Configure DHCP en el Router1 de la siguiente manera:
 
 #### B)
 
-![](img/Pasted-image-20260122110521.png)
+![](Pasted-image-20260122110521.png)
 
 1. R1 debe proveer de DHCP a la VLAN10 y VLAN20. La VLAN10 debe tener asignado
    un tiempo de concesión de 10 horas. No se deben incluir las primeras 10 IP de cada bloque IP en ambas VLANs.
@@ -22,7 +22,7 @@ Configure DHCP en el Router1 de la siguiente manera:
 
 #### C)
 
-![](img/Pasted-image-20260120095847.png)
+![](Pasted-image-20260120095847.png)
 
 1. Configure tres grupos DHCP en R1:
    Grupo 10:
@@ -98,11 +98,11 @@ Mode access porque no vamos a usar VLANs aquí.
 
 **IP que el DHCP le asigno a la PC**
 
-![](img/Pasted-image-20260106171638.png)
+![](Pasted-image-20260106171638.png)
 
 6. **Compruebe que la PC pueda hacer ping al loopback del Router1**
 
-![](img/Pasted-image-20260106171651.png)
+![](Pasted-image-20260106171651.png)
 
 #### B)
 
@@ -163,11 +163,11 @@ default-router 192.168.20.1
 
 IPs que le asignaron a PC1 y PC2
 
-![](img/Pasted-image-20260122113630.png)
+![](Pasted-image-20260122113630.png)
 
 
 
-![](img/Pasted-image-20260122113641.png)
+![](Pasted-image-20260122113641.png)
 
 **2. PC3 debe recibir el direccionamiento IP correcto que le permita conectarse al resto de la red. Para la red 192.168.30.0/24 el servidor DHCP debe ser la máquina remota conectada a R4.**
 
@@ -198,11 +198,11 @@ network 10.120.0.0
 
 En el DHCP Server
 
-![](img/Pasted-image-20260122113146.png)
+![](Pasted-image-20260122113146.png)
 
 IP que se le asigno a PC3
 
-![](img/Pasted-image-20260122113947.png)
+![](Pasted-image-20260122113947.png)
 
 #### C)
 
@@ -250,11 +250,11 @@ R1(dhcp-config)#network 192.168.12.0 255.255.255.0
 
 En PC1
 
-![](img/Pasted-image-20260122115725.png)
+![](Pasted-image-20260122115725.png)
 
 En PC2
 
-![](img/Pasted-image-20260122115743.png)
+![](Pasted-image-20260122115743.png)
 
 **2. Configure la interfaz G0/0 de R2 como cliente DHCP y luego habilite la interfaz.**
 
@@ -275,9 +275,9 @@ R2(config-if)#ip helper-address 192.168.12.1
 
 En PC3
 
-![](img/Pasted-image-20260122120641.png)
+![](Pasted-image-20260122120641.png)
 
 En PC4
 
-![](img/Pasted-image-20260122120700.png)
+![](Pasted-image-20260122120700.png)
 

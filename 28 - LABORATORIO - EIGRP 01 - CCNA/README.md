@@ -2,7 +2,7 @@
 
 #### A) EIGRP en IPv4 y IPv6
 
-![](img/Pasted-image-20260129111204.png)
+![](Pasted-image-20260129111204.png)
 
 IPv4:
 
@@ -31,7 +31,7 @@ IPv4:
 
 #### B)
 
-![](img/Pasted-image-20260129110624.png)
+![](Pasted-image-20260129110624.png)
 
 1. Configure una dirección de bucle invertido en cada enrutador (1.1.1.1/32 para R1, 2.2.2.2/32 para R2, etc.).
 2. Configure EIGRP en cada enrutador y anuncie todas las interfaces configuradas.

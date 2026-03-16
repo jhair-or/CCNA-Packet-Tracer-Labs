@@ -2,14 +2,14 @@
 
 #### A) Extended ACLs 
 
-![](img/Pasted-image-20260121121142.png)
+![](Pasted-image-20260121121142.png)
 
 * Configure las ACL extendidas para cumplir con los siguientes requisitos:
    ---Solo la PC1 puede acceder a SRV1
    ---Solo los hosts en la red 192.168.2.0/24 pueden acceder a SRV2
 #### B) 
 
-![](img/Pasted-image-20260121114551.png)
+![](Pasted-image-20260121114551.png)
 
 1. El host 10.0.0.1 no debe acceder al servicio Web en 30.0.0.1
 2. El host 10.0.0.2 no debe hacer ping al servidor Web
@@ -19,7 +19,7 @@
 
 #### C) ACL en IPv6
 
-![](img/Pasted-image-20260121124001.png)
+![](Pasted-image-20260121124001.png)
 
 * Este ejercicio tiene por objetivo implementar controles de seguridad basados en ACL para IPv6.
 * La topología está preconfigurada con direccionamiento y enrutamiento, por lo que todos los hosts deberían tener conectividad entre sí antes de comenzar el laboratorio.
@@ -72,11 +72,11 @@ int g0/2
 
 Vemos la pagina web desde la PC2 `10.0.0.2`
 
-![](img/Pasted-image-20260121112631.png)
+![](Pasted-image-20260121112631.png)
 
 Desde la PC1
 
-![](img/Pasted-image-20260121112822.png)
+![](Pasted-image-20260121112822.png)
 
 Ping desde PC2 `10.0.0.2`
 
@@ -84,11 +84,11 @@ Ping desde PC2 `10.0.0.2`
 
 Ping de `10.0.0.0/24` a `20.0.0.0/24`
 
-![](img/Pasted-image-20260121113029.png)
+![](Pasted-image-20260121113029.png)
 
 
 
-![](img/Pasted-image-20260121113045.png)
+![](Pasted-image-20260121113045.png)
 
 ```
 Router#show access-lists
@@ -127,11 +127,11 @@ Standard IP access list 1
 
 Ping a diferentes puntos de la red
 
-![](img/Pasted-image-20260121114356.png)
+![](Pasted-image-20260121114356.png)
 
 Pero si se logra hacer ping al servidor
 
-![](img/Pasted-image-20260121114609.png)
+![](Pasted-image-20260121114609.png)
 
 **5. Solamente el host 10.0.0.1 tiene permitido hacer telnet a los routers.**
 
@@ -173,11 +173,11 @@ int Gig0/0
    ipv6 traffic-filte POLITICAS out   
 ```
 
-![](img/Pasted-image-20260121125032.png)
+![](Pasted-image-20260121125032.png)
 
 
 
-![](img/Pasted-image-20260121125113.png)
+![](Pasted-image-20260121125113.png)
 
 **3) PC1 no debe poder acceder de ningún modo a la LAN de R3**
 
@@ -190,7 +190,7 @@ Router(config-ipv6-acl)#int g0/0
 Router(config-if)#ipv6 traffic-filter PC1 in
 ```
 
-![](img/Pasted-image-20260121133718.png)
+![](Pasted-image-20260121133718.png)
 
 **2) El PC de la LAN de R3 debe acceder solamente a la interfaz Web de R3. Para todos
   los otros sitios Web, el acceso debe estar bloqueado.**

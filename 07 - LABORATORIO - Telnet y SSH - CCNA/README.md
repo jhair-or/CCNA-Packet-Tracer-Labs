@@ -1,7 +1,7 @@
 ## 08 - LABORATORIO - Telnet y SSH - CCNA
 ### Telnet
 
-![](img/Pasted-image-20260114110740.png)
+![](Pasted-image-20260114110740.png)
 
 1. Configure la interfaz G0/0 de R1 y la interfaz VLAN1 de SW1 con las direcciones IP indicadas.
 2. Configure la siguiente cuenta de usuario en SW1 y R1:
@@ -13,7 +13,7 @@
 
 ### SSH
 
-![](img/Pasted-image-20260114110835.png)
+![](Pasted-image-20260114110835.png)
 
 1. Configure los nombres de host de SW1 y R1.
 2. Configure la interfaz G0/0 y la interfaz VLAN1 de SW1 con las direcciones IP indicadas.
@@ -102,7 +102,7 @@ transport input telnet
 
 **4. Intente establecer una conexión Telnet con cada dispositivo desde la PC1.**
 
-![](img/Pasted-image-20260114113003.png)
+![](Pasted-image-20260114113003.png)
 
 Para el caso del SW1:
 
@@ -111,7 +111,7 @@ ip default-gateway 192.168.1.1
 ```
 Indica por dónde salir cuando necesita comunicarse con equipos que no están en su misma subred
 
-![](img/Pasted-image-20260114113914.png)
+![](Pasted-image-20260114113914.png)
 
 ---
 #### SSH
@@ -212,5 +212,5 @@ En SW1 y R1:
 
 **8. Intente conectarse a cada dispositivo mediante SSH desde la PC1.**
 
-![](img/Pasted-image-20260114115717.png)
+![](Pasted-image-20260114115717.png)
 

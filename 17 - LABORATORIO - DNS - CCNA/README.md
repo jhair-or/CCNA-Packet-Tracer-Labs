@@ -1,6 +1,6 @@
 ## 17 - LABORATORIO - DNS (Domain Name System) - CCNA
 
-![](img/Pasted-image-20260121134442.png)
+![](Pasted-image-20260121134442.png)
 
 1. Configure el siguiente pool DHCP en R1:
    1pool:
@@ -29,13 +29,13 @@ R1(dhcp-config)#network 192.168.1.0 255.255.255.0
 R1(dhcp-config)#default-router 192.168.1.1
 ```
 
-![](img/Pasted-image-20260123092712.png)
+![](Pasted-image-20260123092712.png)
 
 **2. Desde la PC1, intente hacer ping a SRV1 por dirección IP y luego por nombre. ¿Falló alguno de los dos?**
 
 Ping por dirección IP
 
-![](img/Pasted-image-20260123093125.png)
+![](Pasted-image-20260123093125.png)
 
 Ping por su nombre
 

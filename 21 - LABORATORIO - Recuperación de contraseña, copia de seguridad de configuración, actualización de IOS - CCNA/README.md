@@ -1,6 +1,6 @@
 ## 21 - LABORATORIO - Recuperación de contraseña, copia de seguridad de configuración, actualización de IOS - CCNA
 
-![](img/Pasted-image-20260126095840.png)
+![](Pasted-image-20260126095840.png)
 
 1. Recuperar la contraseña en R1 (cambiar la clave secreta de habilitación a ccna):
    Instrucciones para iniciar R1 en modo ROMMON en Packet Tracer:
@@ -13,7 +13,7 @@
 
 **1. Recuperar la contraseña en R1 (cambiar la clave secreta de habilitación a ccna):***
 
-![](img/Pasted-image-20260126093838.png)
+![](Pasted-image-20260126093838.png)
 
  
  Instrucciones para iniciar R1 en modo ROMMON en Packet Tracer:
@@ -63,7 +63,7 @@ Writing startup-config....!!
 827 bytes copied in 3.002 secs (275 bytes/sec)
 ```
 
-![](img/Pasted-image-20260126095952.png)
+![](Pasted-image-20260126095952.png)
 
 **3. Actualizar la imagen de IOS de R1 a la imagen c2900-universalk9-mz.SPA.155-3.M4a.bin en TFTP1**
 

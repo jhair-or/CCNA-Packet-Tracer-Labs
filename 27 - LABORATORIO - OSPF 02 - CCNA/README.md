@@ -2,7 +2,7 @@
 
 #### A) Multi-Area
 
-![](img/Pasted-image-20260129105129.png)
+![](Pasted-image-20260129105129.png)
 
 1. Configuración de OSPFv2
    1.1 Levantar OSPF entre todos los routers de la topología y verificar conectividad entre todos los extremos
@@ -30,7 +30,7 @@
 
 #### B) OSPF Troubleshooting
 
-![](img/Pasted-image-20260129105638.png)
+![](Pasted-image-20260129105638.png)
 
 Los enrutadores de la red no reciben las rutas que deberían de OSPF.
 R5 no recibe la ruta de resumen 10.0.0.0/8 que debería.
@@ -39,7 +39,7 @@ No todos los enrutadores están mal configurados.
 
 #### C) OSPFv3
 
-![](img/Pasted-image-20260129110122.png)
+![](Pasted-image-20260129110122.png)
 
 1. Configure una interfaz de bucle invertido en cada enrutador con una dirección IPv4 (1.1.1.1, 2.2.2.2, etc.).
 2. Configure OSPFv3 en cada enrutador según la topología.

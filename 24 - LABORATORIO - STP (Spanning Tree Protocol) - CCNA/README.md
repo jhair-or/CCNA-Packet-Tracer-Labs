@@ -2,7 +2,7 @@
 
 #### A)
 
-![](img/Pasted-image-20260127103533.png)
+![](Pasted-image-20260127103533.png)
 
 1. ¿Cuál es la versión actual (predeterminada) de STP que se ejecuta en los switches?
    ¿Cuál es el ID de puente de cada switch?
@@ -18,7 +18,7 @@
 
 #### B) STP Election
 
-![](img/Pasted-image-20260127103745.png)
+![](Pasted-image-20260127103745.png)
 
 Intenta resolver estas preguntas SIN USAR LA CLI:
 VLAN 1

@@ -2,7 +2,7 @@
 
 #### A) Static NAT
 
-![](img/Pasted-image-20260122121003.png)
+![](Pasted-image-20260122121003.png)
 
 1. Se ha configurado RIP para que R1 y R2 puedan acceder a sus redes internas.
    ¿Por qué PC1, PC2 y PC3 no pueden hacer ping a SRV1 correctamente?
@@ -12,7 +12,7 @@
 
 #### B) Dynamic NAT
 
-![](img/Pasted-image-20260122121736.png)
+![](Pasted-image-20260122121736.png)
 
 1. RIP se ha configurado para que R1 y R2 puedan acceder a sus redes internas.
    ¿Por qué PC1, PC2 y PC3 no pueden hacer ping a SRV1 correctamente?
@@ -28,7 +28,7 @@
    ¿Por qué PC1, PC2 y PC3 no pueden hacer ping a SRV1 correctamente?
    (Pista: La conexión serial entre R1 y R2 simula Internet con ACL).**
 
-![](img/Pasted-image-20260123110115.png)
+![](Pasted-image-20260123110115.png)
 
 Ninguna PC logra hacer ping con SRV1
 
@@ -56,7 +56,7 @@ R1(config)#ip nat inside source static 192.168.1.13 1.2.3.13
 
 Ping exitoso.
 
-![](img/Pasted-image-20260123110937.png)
+![](Pasted-image-20260123110937.png)
 
 #### B) Dynamic NAT
 
@@ -64,7 +64,7 @@ Ping exitoso.
    ¿Por qué PC1, PC2 y PC3 no pueden hacer ping a SRV1 correctamente?
    (Pista: La conexión serial entre R1 y R2 simula Internet con ACL).
 
-![](img/Pasted-image-20260123110115.png)
+![](Pasted-image-20260123110115.png)
 
 **2. Configure NAT dinámica en R1 para traducir la subred 192.168.1.0/24 al rango de direcciones 1.2.3.10 - 1.2.3.20.**
 
@@ -93,7 +93,7 @@ R1(config)#ip nat inside source list 1 pool POOL1
 
 **3. Haga ping desde cada PC a SRV1 y luego use el comando "show" en R1 para verificar las traducciones.**
 
-![](img/Pasted-image-20260123112108.png)
+![](Pasted-image-20260123112108.png)
 
 Ping exitoso.
 
@@ -101,5 +101,5 @@ Ping exitoso.
 R1#show ip nat translations
 ```
 
-![](img/Pasted-image-20260123112627.png)
+![](Pasted-image-20260123112627.png)
 

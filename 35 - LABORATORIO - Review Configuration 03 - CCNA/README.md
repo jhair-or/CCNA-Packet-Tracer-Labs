@@ -2,7 +2,7 @@
 
 #### A)
 
-![](img/Pasted-image-20260215172102.png)
+![](Pasted-image-20260215172102.png)
 
 **Enterprise A:**
 1. Configure rutas estáticas a Internet en R1 y R2.
@@ -20,7 +20,7 @@
 
 #### B) Troubleshooting
 
-![](img/Pasted-image-20260215172450.png)
+![](Pasted-image-20260215172450.png)
 
 Solucione los siguientes problemas de red:
 1. La PC2 no puede hacer ping a la PC1.
@@ -133,7 +133,7 @@ R3(config-router)#net 192.168.4.0 mask 255.255.255.0
 
 En PC1
 
-![](img/Pasted-image-20260218125615.png)
+![](Pasted-image-20260218125615.png)
 
 En R4
 ```
@@ -156,7 +156,7 @@ Para ello haremos una ruta estática que apunte a R3
 R4(config)#ip route 0.0.0.0 0.0.0.0 192.168.34.1
 ```
 
-![](img/Pasted-image-20260218131401.png)
+![](Pasted-image-20260218131401.png)
 
 #### B) Troubleshooting
 
@@ -164,7 +164,7 @@ Solucione los siguientes problemas de red:
 
 **1. La PC2 no puede hacer ping a la PC1.**
 
-![](img/Pasted-image-20260218131523.png)
+![](Pasted-image-20260218131523.png)
 
 En R2
 ```
@@ -183,11 +183,11 @@ R2 solo conoce rutas locales y conectada, falta la ruta por predeterminada a int
 R2(config)#ip route 0.0.0.0 0.0.0.0 g0/0/0
 ```
 
-![](img/Pasted-image-20260218131741.png)
+![](Pasted-image-20260218131741.png)
 
 **2. La PC4 no puede hacer ping a la PC3.***
 
-![](img/Pasted-image-20260218133130.png)
+![](Pasted-image-20260218133130.png)
 
 En R4
 ```
@@ -232,7 +232,7 @@ R3(config-router)#no network 192.168.34.0 0.0.0.0
 R3(config-router)#network 192.168.34.0 0.0.0.255
 ```
 
-![](img/Pasted-image-20260218133849.png)
+![](Pasted-image-20260218133849.png)
 
 **3. Los hosts de la Empresa B no pueden hacer ping a los hosts de la Empresa A.**
 
@@ -280,6 +280,6 @@ R3(config-if)#ppp authentication chap
 
 Probamos el ping
 
-![](img/Pasted-image-20260218134538.png)
+![](Pasted-image-20260218134538.png)
 
 Se ha resuelto el problema de red correctamente.

@@ -2,7 +2,7 @@
 
 #### A) DTP 
 
-![](img/Pasted-image-20260124123902.png)
+![](Pasted-image-20260124123902.png)
 
 VLAN 13: PC1, PC3
 VLAN 24: PC2, PC4
@@ -13,7 +13,7 @@ Ha completado con éxito el laboratorio cuando DTP está deshabilitado y hay con
 
 #### B) VTP (VLAN Trunking Protocol)
 
-![](img/Pasted-image-20260124124300.png)
+![](Pasted-image-20260124124300.png)
 
 1. Configure los puertos de switch que conectan los switches como puertos troncales.
    Desactive DTP en los puertos.
@@ -27,7 +27,7 @@ Ha completado con éxito el laboratorio cuando DTP está deshabilitado y hay con
 
 #### C) VTP / VLAN Troubleshooting
 
-![](img/Pasted-image-20260124124445.png)
+![](Pasted-image-20260124124445.png)
 
 Hay problemas de conectividad en la red.
 Hay una configuración incorrecta por dispositivo de red.
@@ -108,7 +108,7 @@ SW1(config-if)#switchport access vlan 24
 
 Ha completado con éxito el laboratorio cuando DTP está deshabilitado y hay conectividad completa en toda la red.
 
-![](img/Pasted-image-20260127114816.png)
+![](Pasted-image-20260127114816.png)
 
 #### B) VTP (VLAN Trunking Protocol)
 

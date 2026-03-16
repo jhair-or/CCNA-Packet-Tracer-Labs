@@ -2,11 +2,11 @@
 
 #### A) Sincronización 
 
-![](img/Pasted-image-20260119101310.png)
+![](Pasted-image-20260119101310.png)
 
 #### B)
 
-![](img/Pasted-image-20260117130804.png)
+![](Pasted-image-20260117130804.png)
 
 1. Configure la zona horaria, la hora y la fecha en R1 para que coincidan con su hora local.
 2. Configure R1 como un servidor NTP con el nivel de estrato predeterminado.
@@ -139,13 +139,13 @@ R1(config)#do show clock
 
 Y para establecer la hora UTC
 
-![](img/Pasted-image-20260119104527.png)
+![](Pasted-image-20260119104527.png)
 
 ```
 R1#clock set 15:46:00 Jan 01 2026
 ```
 
-![](img/Pasted-image-20260119104811.png)
+![](Pasted-image-20260119104811.png)
 
 **2. Configure R1 como un servidor NTP con el nivel de estrato predeterminado.**
 
