@@ -2,7 +2,7 @@
 
 #### A)
 
-![](Pasted-image-20260106171605.png)
+![](img/Pasted-image-20260106171605.png)
 
 Configure DHCP en el Router1 de la siguiente manera:
 1) Rango de direcciones excluidas: 10.1.1.1 a 10.1.1.100
@@ -14,7 +14,7 @@ Configure DHCP en el Router1 de la siguiente manera:
 
 #### B)
 
-![](Pasted-image-20260122110521.png)
+![](img/Pasted-image-20260122110521.png)
 
 1. R1 debe proveer de DHCP a la VLAN10 y VLAN20. La VLAN10 debe tener asignado
    un tiempo de concesión de 10 horas. No se deben incluir las primeras 10 IP de cada bloque IP en ambas VLANs.
@@ -22,7 +22,7 @@ Configure DHCP en el Router1 de la siguiente manera:
 
 #### C)
 
-![](Pasted-image-20260120095847.png)
+![](img/Pasted-image-20260120095847.png)
 
 1. Configure tres grupos DHCP en R1:
    Grupo 10:
@@ -98,7 +98,7 @@ Mode access porque no vamos a usar VLANs aquí.
 
 **IP que el DHCP le asigno a la PC**
 
-![](Pasted-image-20260106171638.png)
+![](img/Pasted-image-20260106171638.png)
 
 6. **Compruebe que la PC pueda hacer ping al loopback del Router1**
 
@@ -163,7 +163,7 @@ default-router 192.168.20.1
 
 IPs que le asignaron a PC1 y PC2
 
-![](Pasted-image-20260122113630.png)
+![](img/Pasted-image-20260122113630.png)
 
 
 
@@ -198,7 +198,7 @@ network 10.120.0.0
 
 En el DHCP Server
 
-![](Pasted-image-20260122113146.png)
+![](img/Pasted-image-20260122113146.png)
 
 IP que se le asigno a PC3
 
@@ -250,7 +250,7 @@ R1(dhcp-config)#network 192.168.12.0 255.255.255.0
 
 En PC1
 
-![](Pasted-image-20260122115725.png)
+![](img/Pasted-image-20260122115725.png)
 
 En PC2
 
@@ -275,7 +275,7 @@ R2(config-if)#ip helper-address 192.168.12.1
 
 En PC3
 
-![](Pasted-image-20260122120641.png)
+![](img/Pasted-image-20260122120641.png)
 
 En PC4
 

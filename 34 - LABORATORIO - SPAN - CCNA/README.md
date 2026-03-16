@@ -1,6 +1,6 @@
 ## 34 - LABORATORIO - SPAN - CCNA
 
-![](Pasted-image-20260215171928.png)
+![](img/Pasted-image-20260215171928.png)
 
 1. Haga ping de PC2 a PC1 para completar el proceso ARP.
 2. Cambie al modo "Simulación" de Packet Tracer (abajo a la derecha) y haga ping de nuevo de PC2 a PC1.
@@ -11,7 +11,7 @@
 
 **1. Haga ping de PC2 a PC1 para completar el proceso ARP.**
 
-![](Pasted-image-20260218115319.png)
+![](img/Pasted-image-20260218115319.png)
 
 **2. Cambie al modo "Simulación" de Packet Tracer (abajo a la derecha) y haga ping de nuevo de PC2 a PC1.**
    Confirme la ruta de los mensajes de eco y respuesta ICMP
@@ -45,5 +45,5 @@ En PC2
 C:\>ping 10.0.1.0
 ```
 
-![](Pasted-image-20260218121627.png)
+![](img/Pasted-image-20260218121627.png)
 

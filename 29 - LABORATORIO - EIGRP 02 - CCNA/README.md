@@ -2,7 +2,7 @@
 
 #### A) EIGRP Troubleshooting
 
-![](Pasted-image-20260129111529.png)
+![](img/Pasted-image-20260129111529.png)
 
 Los enrutadores de la red no se están convirtiendo en vecinos EIGRP ni recibiendo las rutas correctas.
 R5 debería recibir un resumen 10.0.0.0/8 de R3.
@@ -10,7 +10,7 @@ Hay una configuración incorrecta por enrutador.
 Solucione los problemas.
 #### B) EIGRP for IPv6
 
-![](Pasted-image-20260129111800.png)
+![](img/Pasted-image-20260129111800.png)
 
 1. Configure una interfaz de loopback en cada enrutador con una dirección IPv4 (1.1.1.1/32, 2.2.2.2/32, etc.).
 2. Configure EIGRP en cada enrutador según la topología.

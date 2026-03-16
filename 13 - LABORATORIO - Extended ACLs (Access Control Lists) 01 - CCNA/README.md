@@ -2,14 +2,14 @@
 
 #### A) Extended ACLs 
 
-![](Pasted-image-20260121121142.png)
+![](img/Pasted-image-20260121121142.png)
 
 * Configure las ACL extendidas para cumplir con los siguientes requisitos:
    ---Solo la PC1 puede acceder a SRV1
    ---Solo los hosts en la red 192.168.2.0/24 pueden acceder a SRV2
 #### B) 
 
-![](Pasted-image-20260121114551.png)
+![](img/Pasted-image-20260121114551.png)
 
 1. El host 10.0.0.1 no debe acceder al servicio Web en 30.0.0.1
 2. El host 10.0.0.2 no debe hacer ping al servidor Web
@@ -19,7 +19,7 @@
 
 #### C) ACL en IPv6
 
-![](Pasted-image-20260121124001.png)
+![](img/Pasted-image-20260121124001.png)
 
 * Este ejercicio tiene por objetivo implementar controles de seguridad basados en ACL para IPv6.
 * La topología está preconfigurada con direccionamiento y enrutamiento, por lo que todos los hosts deberían tener conectividad entre sí antes de comenzar el laboratorio.
@@ -72,7 +72,7 @@ int g0/2
 
 Vemos la pagina web desde la PC2 `10.0.0.2`
 
-![](Pasted-image-20260121112631.png)
+![](img/Pasted-image-20260121112631.png)
 
 Desde la PC1
 
@@ -84,7 +84,7 @@ Ping desde PC2 `10.0.0.2`
 
 Ping de `10.0.0.0/24` a `20.0.0.0/24`
 
-![](Pasted-image-20260121113029.png)
+![](img/Pasted-image-20260121113029.png)
 
 
 
@@ -127,7 +127,7 @@ Standard IP access list 1
 
 Ping a diferentes puntos de la red
 
-![](Pasted-image-20260121114356.png)
+![](img/Pasted-image-20260121114356.png)
 
 Pero si se logra hacer ping al servidor
 
@@ -173,7 +173,7 @@ int Gig0/0
    ipv6 traffic-filte POLITICAS out   
 ```
 
-![](Pasted-image-20260121125032.png)
+![](img/Pasted-image-20260121125032.png)
 
 
 
@@ -190,7 +190,7 @@ Router(config-ipv6-acl)#int g0/0
 Router(config-if)#ipv6 traffic-filter PC1 in
 ```
 
-![](Pasted-image-20260121133718.png)
+![](img/Pasted-image-20260121133718.png)
 
 **2) El PC de la LAN de R3 debe acceder solamente a la interfaz Web de R3. Para todos
   los otros sitios Web, el acceso debe estar bloqueado.**

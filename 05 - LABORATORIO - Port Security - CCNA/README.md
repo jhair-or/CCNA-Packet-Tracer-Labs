@@ -2,7 +2,7 @@
 
 #### A)
 
-![](Pasted-image-20260113131422.png)
+![](img/Pasted-image-20260113131422.png)
 
 2. Desde la CLI de SW1, busque la dirección MAC de SW2. Desde la CLI de SW2, busque la dirección MAC de SW1.
 3. ¿Por qué no aparecen las direcciones MAC de PC1 y PC2 en las tablas de direcciones MAC de SW1 y SW2?
@@ -202,7 +202,7 @@ SW2(config-if)# switchport port-security
 
 **2. Haga ping de PC1 a PC2 para generar tráfico entre ellos.**
 
-![](Pasted-image-20260114100931.png)
+![](img/Pasted-image-20260114100931.png)
 
 **3. Use el comando "show" para ver las direcciones MAC seguras en SW1. La dirección MAC de PC1 debería estar en la tabla.**
 
@@ -261,7 +261,7 @@ switchport port-security mac-address sticky
 ```
 Con este comando habilitamos el aprendizaje dinámico y automático de direcciones MAC.
 
-![](Pasted-image-20260114100931.png)
+![](img/Pasted-image-20260114100931.png)
 
 Generamos trafico.
 
@@ -328,7 +328,7 @@ Max Addresses limit in System (excluding one mac per port) : 1024
 
 **1. Haga ping de PC1 a PC2 para generar tráfico entre ellas.**
 
-![](Pasted-image-20260114103041.png)
+![](img/Pasted-image-20260114103041.png)
 
 **2. Revise la tabla de direcciones MAC de SW1 y anote la dirección MAC de PC1.**
 
@@ -371,11 +371,11 @@ SW2(config-if)#switchport port-security mac-address 000A.F369.4165
 
 **5. Haga ping entre PC1 y PC2 para probar.**
 
-![](Pasted-image-20260114104725.png)
+![](img/Pasted-image-20260114104725.png)
 
 **6. Retire los cables que conectan las PC a los switches y luego conecte PC1 a la interfaz F0/2 de SW2 y PC2 a la interfaz F0/2 de SW1.**
 
-![](Pasted-image-20260114104838.png)
+![](img/Pasted-image-20260114104838.png)
 
 **7. Haga ping de PC1 a PC2. ¿Qué sucede?**
 
@@ -413,5 +413,5 @@ SW2(config-if)#
 
 Hacemos ping:
 
-![](Pasted-image-20260114105624.png)
+![](img/Pasted-image-20260114105624.png)
 

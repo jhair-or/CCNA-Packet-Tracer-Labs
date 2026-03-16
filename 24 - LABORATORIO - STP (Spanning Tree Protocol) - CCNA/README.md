@@ -2,7 +2,7 @@
 
 #### A)
 
-![](Pasted-image-20260127103533.png)
+![](img/Pasted-image-20260127103533.png)
 
 1. ¿Cuál es la versión actual (predeterminada) de STP que se ejecuta en los switches?
    ¿Cuál es el ID de puente de cada switch?

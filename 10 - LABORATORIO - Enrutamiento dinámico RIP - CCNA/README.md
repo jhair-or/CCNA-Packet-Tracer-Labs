@@ -2,7 +2,7 @@
 
 #### A) Enrutamiento dinámico RIPv1
 
-![](Pasted-image-20260117122536.png)
+![](img/Pasted-image-20260117122536.png)
 
 Instrucciones:
 1) Verificar conectividad IP a nivel de vecinos directamente conectados en todos los routers
@@ -86,7 +86,7 @@ interface Loopback0
 
 Si hay ping entre lo routers
 
-![](Pasted-image-20260117110432.png)
+![](img/Pasted-image-20260117110432.png)
 
 **2) Configurar RIP para lograr el intercambio de rutas entre los vecinos y verificar que las LAN tengan conectividad entre ellas**
 
@@ -360,5 +360,5 @@ Distance: (default is 120)
 
 Hacemos ping de PC1 a las demas PCs
 
-![](Pasted-image-20260118140849.png)
+![](img/Pasted-image-20260118140849.png)
 

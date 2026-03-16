@@ -2,7 +2,7 @@
 
 #### A) IPv4 e IPv6
 
-![](Pasted-image-20260111170050.png)
+![](img/Pasted-image-20260111170050.png)
 
 1. Verifique conectividad IPv4 e IPv6 en cada enlace local antes de configurar enrutamiento 
 2. Configure el enrutamiento estático de acuerdo a los siguientes requerimientos:
@@ -192,7 +192,7 @@ ipv6 unicast-routing
 ```
 Permite que el equipo reenvíe paquetes IPv6 entre interfaces, es decir, que actúe como router IPv6.
 
-![](Pasted-image-20260112121850.png)
+![](img/Pasted-image-20260112121850.png)
 
 **R1 debe tener una ruta por defecto hacia R2 con la IP link-local de R2 como argumento.**
 

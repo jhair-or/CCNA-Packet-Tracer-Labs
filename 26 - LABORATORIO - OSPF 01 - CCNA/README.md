@@ -2,7 +2,7 @@
 
 #### A) OSPFv2 y OSPFv3 área única
 
-![](Pasted-image-20260129104444.png)
+![](img/Pasted-image-20260129104444.png)
 
 #### B) Single Area
 
@@ -17,7 +17,7 @@
 
 #### C) Multi-Area
 
-![](Pasted-image-20260129104618.png)
+![](img/Pasted-image-20260129104618.png)
 
 1. Configure OSPF multiárea según los diagramas. Anuncie todas las interfaces configuradas en el enrutador.
    (Los loopbacks de R2 y R3 deben estar en el Área 0)

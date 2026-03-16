@@ -1,6 +1,6 @@
 ## 20 - LABORATORIO - Syslog - CCNA
 
-![](Pasted-image-20260123112925.png)
+![](img/Pasted-image-20260123112925.png)
 
 1. Conéctese al puerto de consola de R1 mediante PC2:
    - Apague la interfaz G0/0
@@ -21,7 +21,7 @@
 
    - Apague la interfaz G0/0
 
-![](Pasted-image-20260125160150.png)
+![](img/Pasted-image-20260125160150.png)
 
    - Tras recibir un mensaje de syslog, vuelva a habilitar la interfaz.
 
@@ -64,11 +64,11 @@ R1(config-line)#password ccent
 R1(config-line)#transport input telnet
 ```
 
-![](Pasted-image-20260125161302.png)
+![](img/Pasted-image-20260125161302.png)
 
 **3. Conéctese por Telnet desde PC1 a la interfaz G0/0 de R1 y, a continuación, ejecute un "no shutdown" en la interfaz G0/1 no utilizada.**
 
-![](Pasted-image-20260125180518.png)
+![](img/Pasted-image-20260125180518.png)
 
  - ¿Por qué no aparece ningún mensaje de syslog?
 Porque de forma predeterminada los mensajes de syslog no se muestra en las lineas vty.
@@ -78,7 +78,7 @@ Porque de forma predeterminada los mensajes de syslog no se muestra en las linea
 R1#terminal monitor
 ```
 
-![](Pasted-image-20260125180916.png)
+![](img/Pasted-image-20260125180916.png)
 
 **4. Configure el registro síncrono en las líneas de consola y VTY.**
 

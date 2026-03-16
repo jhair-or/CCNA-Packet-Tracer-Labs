@@ -2,7 +2,7 @@
 
 #### A)
 
-![](Pasted-image-20260130111049.png)
+![](img/Pasted-image-20260130111049.png)
 
 1. Configure PPP con autenticación PAP bidireccional entre R1 y SPR1.
    (Solo puede configurar R1; SPR1 está preconfigurado).

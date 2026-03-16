@@ -2,7 +2,7 @@
 
 #### A)
 
-![](Pasted-image-20260215171333.png)
+![](img/Pasted-image-20260215171333.png)
 
 Configurar HSRP con los siguientes requisitos:
 - Usar HSRP versión 2
@@ -90,7 +90,7 @@ R1(config-if)#standby 20 priority 90
 Para verificar
 Ahora si hacemos ping de PC1 a Internet
 
-![](Pasted-image-20260217123540.png)
+![](img/Pasted-image-20260217123540.png)
 
 Si desabilitamos R1.
 
@@ -369,7 +369,7 @@ Verificamos
 
 Si desabilitamos R1.
 
-![](Pasted-image-20260217170313.png)
+![](img/Pasted-image-20260217170313.png)
 
 R2 toma relevo.
 

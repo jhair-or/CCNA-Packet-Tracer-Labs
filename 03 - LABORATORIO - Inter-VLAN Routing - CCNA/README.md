@@ -2,7 +2,7 @@
 
 #### A) Enrutamiento Inter-VLAN tradicional
 
-![](Pasted-image-20260116130743.png)
+![](img/Pasted-image-20260116130743.png)
 
 #### B) Inter-VLAN Routing
 
@@ -16,7 +16,7 @@
 
 #### C) Enrutamiento Inter-VLAN multicapa (MLS) 
 
-![](Pasted-image-20260117101625.png)
+![](img/Pasted-image-20260117101625.png)
 
 ---
 
@@ -73,7 +73,7 @@ switchport access vlan 30
 
 Verificacion:
 
-![](Pasted-image-20260117104846.png)
+![](img/Pasted-image-20260117104846.png)
 
 #### B) Inter-VLAN Routing
 
@@ -165,7 +165,7 @@ Switch(config-if)#switchport mode trunk
 
 Ahora ya se puede hacer ping entre las VLANs
 
-![](Pasted-image-20260109140226.png)
+![](img/Pasted-image-20260109140226.png)
 
 #### C) Enrutamiento Inter-VLAN multicapa (MLS) 
 
@@ -208,5 +208,5 @@ ip routing
 
 Verificacion:
 
-![](Pasted-image-20260117104706.png)
+![](img/Pasted-image-20260117104706.png)
 
