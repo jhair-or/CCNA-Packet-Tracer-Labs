@@ -1,108 +1,151 @@
-# 🌐📡 CCNA 200-301 - Packet Tracer Labs
+# 🌐 CCNA 200-301 | Packet Tracer Labs
 
-Prácticas y laboratorios de redes realizados en Cisco Packet Tracer como parte de la preparación para la certificación CCNA 200-301.
+Colección de **35 laboratorios prácticos de redes en Cisco Packet Tracer**, orientados al aprendizaje y la preparación para la certificación CCNA 200-301.
 
-Este repositorio contiene configuraciones, topologías y ejercicios prácticos de distintos temas del currículo de CCNA
+Los archivos `.pkt` contienen topologías preparadas para resolver: el objetivo es completar las configuraciones solicitadas, comprobar su funcionamiento y practicar la resolución de problemas.
 
-## 🗂️ Índice de Laboratorios (Por Módulos)
+El repositorio también incluye temas complementarios para ampliar los conocimientos de networking.
 
-> **Nota:** Haz clic en cada categoría para desplegar los laboratorios correspondientes.
+## 🎯 Objetivos
+
+- Practicar la configuración de routers, switches y servicios de red.
+- Reforzar los fundamentos de switching, routing y seguridad.
+- Verificar el funcionamiento de una red mediante comandos y pruebas de conectividad.
+- Desarrollar habilidades de análisis y troubleshooting.
+
+## 🗂️ Índice de laboratorios
+
+> Haz clic en cada categoría para desplegar los laboratorios.
 
 <details>
-<summary><strong>🛠️ Fundamentos y Acceso a Dispositivos</strong> (3 labs)</summary>
+<summary><strong>🛠️ Fundamentos y acceso a dispositivos</strong> — 3 laboratorios</summary>
 
-* [01 - LABORATORIO -  USO DE CISCO PACKET TRACER- CCNA](./01%20-%20LABORATORIO%20-%20%20USO%20DE%20CISCO%20PACKET%20TRACER-%20CCNA)
-* [07 - LABORATORIO - Telnet y SSH - CCNA](./07%20-%20LABORATORIO%20-%20Telnet%20y%20SSH%20-%20CCNA)
-* [21 - LABORATORIO - Recuperación de contraseña, copia de seguridad de configuración, actualización de IOS - CCNA](./21%20-%20LABORATORIO%20-%20Recuperaci%C3%B3n%20de%20contrase%C3%B1a%2C%20copia%20de%20seguridad%20de%20configuraci%C3%B3n%2C%20actualizaci%C3%B3n%20de%20IOS%20-%20CCNA)
+- [01 - Uso de Cisco Packet Tracer](./01%20-%20LABORATORIO%20-%20%20USO%20DE%20CISCO%20PACKET%20TRACER-%20CCNA)
+- [07 - Telnet y SSH](./07%20-%20LABORATORIO%20-%20Telnet%20y%20SSH%20-%20CCNA)
+- [21 - Recuperación de contraseña, respaldo de configuración y actualización de IOS](./21%20-%20LABORATORIO%20-%20Recuperaci%C3%B3n%20de%20contrase%C3%B1a%2C%20copia%20de%20seguridad%20de%20configuraci%C3%B3n%2C%20actualizaci%C3%B3n%20de%20IOS%20-%20CCNA)
 
 </details>
 
 <details>
-<summary><strong>🔄 Switching (Capa 2)</strong> (4 labs)</summary>
+<summary><strong>🔄 Switching — Capa 2</strong> — 4 laboratorios</summary>
 
-* [02 - LABORATORIO - VLANs - CCNA](./02%20-%20LABORATORIO%20-%20VLANs%20-%20CCNA)
-* [23 - LABORATORIO -  DTP y VTP - CCNA](./23%20-%20LABORATORIO%20-%20%20DTP%20y%20VTP%20-%20CCNA)
-* [24 - LABORATORIO - STP (Spanning Tree Protocol) - CCNA](./24%20-%20LABORATORIO%20-%20STP%20%28Spanning%20Tree%20Protocol%29%20-%20CCNA)
-* [25 - LABORATORIO - EtherChannel - CCNA](./25%20-%20LABORATORIO%20-%20EtherChannel%20-%20CCNA)
-
-</details>
-
-<details>
-<summary><strong>🛣️ Routing (Capa 3)</strong> (9 labs)</summary>
-
-* [03 - LABORATORIO - Inter-VLAN Routing - CCNA](./03%20-%20LABORATORIO%20-%20Inter-VLAN%20Routing%20-%20CCNA)
-* [08 - LABORATORIO - Static Routing - CCNA](./08%20-%20LABORATORIO%20-%20Static%20Routing%20-%20CCNA)
-* [09 - LABORATORIO - Enrutamiento estático en IPv4 e IPv6 - CCNA](./09%20-%20LABORATORIO%20-%20Enrutamiento%20est%C3%A1tico%20en%20IPv4%20e%20IPv6%20-%20CCNA)
-* [10 - LABORATORIO - Enrutamiento dinámico RIP - CCNA](./10%20-%20LABORATORIO%20-%20Enrutamiento%20din%C3%A1mico%20RIP%20-%20CCNA)
-* [26 - LABORATORIO - OSPF 01 - CCNA](./26%20-%20LABORATORIO%20-%20OSPF%2001%20-%20CCNA)
-* [27 - LABORATORIO - OSPF 02 - CCNA](./27%20-%20LABORATORIO%20-%20OSPF%2002%20-%20CCNA)
-* [28 - LABORATORIO - EIGRP 01 - CCNA](./28%20-%20LABORATORIO%20-%20EIGRP%2001%20-%20CCNA)
-* [29 - LABORATORIO - EIGRP 02 - CCNA](./29%20-%20LABORATORIO%20-%20EIGRP%2002%20-%20CCNA)
-* [31 - LABORATORIO - BGP - CCNA](./31%20-%20LABORATORIO%20-%20BGP%20-%20CCNA)
+- [02 - VLANs](./02%20-%20LABORATORIO%20-%20VLANs%20-%20CCNA)
+- [23 - DTP y VTP](./23%20-%20LABORATORIO%20-%20%20DTP%20y%20VTP%20-%20CCNA)
+- [24 - STP (Spanning Tree Protocol)](./24%20-%20LABORATORIO%20-%20STP%20%28Spanning%20Tree%20Protocol%29%20-%20CCNA)
+- [25 - EtherChannel](./25%20-%20LABORATORIO%20-%20EtherChannel%20-%20CCNA)
 
 </details>
 
 <details>
-<summary><strong>🛡️ Seguridad (ACLs y Port Security)</strong> (4 labs)</summary>
+<summary><strong>🛣️ Routing — Capa 3</strong> — 9 laboratorios</summary>
 
-* [05 - LABORATORIO - Port Security - CCNA](./05%20-%20LABORATORIO%20-%20Port%20Security%20-%20CCNA)
-* [12 - LABORATORIO - Standard ACLs (Access Control Lists) - CCNA](./12%20-%20LABORATORIO%20-%20Standard%20ACLs%20%28Access%20Control%20Lists%29%20-%20CCNA)
-* [13 - LABORATORIO - Extended ACLs (Access Control Lists) 01 - CCNA](./13%20-%20LABORATORIO%20-%20Extended%20ACLs%20%28Access%20Control%20Lists%29%2001%20-%20CCNA)
-* [14 - LABORATORIO - Extended ACLs (Access Control Lists) 02 - CCNA](./14%20-%20LABORATORIO%20-%20Extended%20ACLs%20%28Access%20Control%20Lists%29%2002%20-%20CCNA)
-
-</details>
-
-<details>
-<summary><strong>⚙️ Servicios IP (NAT, DHCP, HSRP, etc.)</strong> (8 labs)</summary>
-
-* [04 - LABORATORIO - CDP (Cisco Discovery Protocol) - CCNA](./04%20-%20LABORATORIO%20-%20CDP%20%28Cisco%20Discovery%20Protocol%29%20-%20CCNA)
-* [11 - LABORATORIO - NTP (network time protocol) - CCNA](./11%20-%20LABORATORIO%20-%20NTP%20%28network%20time%20protocol%29%20-%20CCNA)
-* [15 - LABORATORIO - LLDP - CCNA](./15%20-%20LABORATORIO%20-%20LLDP%20-%20CCNA)
-* [16 - LABORATORIO - DHCP - CCNA](./16%20-%20LABORATORIO%20-%20DHCP%20-%20CCNA)
-* [17 - LABORATORIO - DNS - CCNA](./17%20-%20LABORATORIO%20-%20DNS%20-%20CCNA)
-* [18 - LABORATORIO - NAT - CCNA](./18%20-%20LABORATORIO%20-%20NAT%20-%20CCNA)
-* [19 - LABORATORIO - PAT - CCNA](./19%20-%20LABORATORIO%20-%20PAT%20-%20CCNA)
-* [33 - LABORATORIO - HSRP - CCNA](./33%20-%20LABORATORIO%20-%20HSRP%20-%20CCNA)
+- [03 - Inter-VLAN Routing](./03%20-%20LABORATORIO%20-%20Inter-VLAN%20Routing%20-%20CCNA)
+- [08 - Static Routing](./08%20-%20LABORATORIO%20-%20Static%20Routing%20-%20CCNA)
+- [09 - Enrutamiento estático en IPv4 e IPv6](./09%20-%20LABORATORIO%20-%20Enrutamiento%20est%C3%A1tico%20en%20IPv4%20e%20IPv6%20-%20CCNA)
+- [10 - Enrutamiento dinámico RIP](./10%20-%20LABORATORIO%20-%20Enrutamiento%20din%C3%A1mico%20RIP%20-%20CCNA)
+- [26 - OSPF 01](./26%20-%20LABORATORIO%20-%20OSPF%2001%20-%20CCNA)
+- [27 - OSPF 02](./27%20-%20LABORATORIO%20-%20OSPF%2002%20-%20CCNA)
+- [28 - EIGRP 01](./28%20-%20LABORATORIO%20-%20EIGRP%2001%20-%20CCNA)
+- [29 - EIGRP 02](./29%20-%20LABORATORIO%20-%20EIGRP%2002%20-%20CCNA)
+- [31 - BGP](./31%20-%20LABORATORIO%20-%20BGP%20-%20CCNA)
 
 </details>
 
 <details>
-<summary><strong>🌐 WAN y Monitoreo</strong> (4 labs)</summary>
+<summary><strong>🛡️ Seguridad — ACLs y Port Security</strong> — 4 laboratorios</summary>
 
-* [20 - LABORATORIO - Syslog - CCNA](./20%20-%20LABORATORIO%20-%20Syslog%20-%20CCNA)
-* [30 - LABORATORIO - PPP, MPLPP y PPPoE - CCNA](./30%20-%20LABORATORIO%20-%20PPP%2C%20MPLPP%20y%20PPPoE%20-%20CCNA)
-* [32 - LABORATORIO - Túneles GRE - CCNA](./32%20-%20LABORATORIO%20-%20T%C3%BAneles%20GRE%20-%20CCNA)
-* [34 - LABORATORIO - SPAN - CCNA](./34%20-%20LABORATORIO%20-%20SPAN%20-%20CCNA)
+- [05 - Port Security](./05%20-%20LABORATORIO%20-%20Port%20Security%20-%20CCNA)
+- [12 - Standard ACLs](./12%20-%20LABORATORIO%20-%20Standard%20ACLs%20%28Access%20Control%20Lists%29%20-%20CCNA)
+- [13 - Extended ACLs 01](./13%20-%20LABORATORIO%20-%20Extended%20ACLs%20%28Access%20Control%20Lists%29%2001%20-%20CCNA)
+- [14 - Extended ACLs 02](./14%20-%20LABORATORIO%20-%20Extended%20ACLs%20%28Access%20Control%20Lists%29%2002%20-%20CCNA)
 
 </details>
 
 <details>
-<summary><strong>📝 Evaluaciones y Repasos Generales</strong> (3 labs)</summary>
+<summary><strong>⚙️ Descubrimiento y servicios de red</strong> — 8 laboratorios</summary>
 
-* [06 - LABORATORIO - Review Configuration 01 - CCNA](./06%20-%20LABORATORIO%20-%20Review%20Configuration%2001%20-%20CCNA)
-* [22 - LABORATORIO - Review Configuration 02 - CCNA](./22%20-%20LABORATORIO%20-%20Review%20Configuration%2002%20-%20CCNA)
-* [35 - LABORATORIO - Review Configuration 03 - CCNA](./35%20-%20LABORATORIO%20-%20Review%20Configuration%2003%20-%20CCNA)
+- [04 - CDP (Cisco Discovery Protocol)](./04%20-%20LABORATORIO%20-%20CDP%20%28Cisco%20Discovery%20Protocol%29%20-%20CCNA)
+- [11 - NTP (Network Time Protocol)](./11%20-%20LABORATORIO%20-%20NTP%20%28network%20time%20protocol%29%20-%20CCNA)
+- [15 - LLDP](./15%20-%20LABORATORIO%20-%20LLDP%20-%20CCNA)
+- [16 - DHCP](./16%20-%20LABORATORIO%20-%20DHCP%20-%20CCNA)
+- [17 - DNS](./17%20-%20LABORATORIO%20-%20DNS%20-%20CCNA)
+- [18 - NAT](./18%20-%20LABORATORIO%20-%20NAT%20-%20CCNA)
+- [19 - PAT](./19%20-%20LABORATORIO%20-%20PAT%20-%20CCNA)
+- [33 - HSRP](./33%20-%20LABORATORIO%20-%20HSRP%20-%20CCNA)
 
 </details>
 
---------------------------------------------------
+<details>
+<summary><strong>🌐 WAN y monitoreo</strong> — 4 laboratorios</summary>
 
-Cada carpeta incluye:
-* La topología original en formato `.pkt`.
-* Instrucciones paso a paso.
-* Apuntes detallados y capturas de pantalla de la configuración y verificación (pings, tablas de enrutamiento, etc.).
+- [20 - Syslog](./20%20-%20LABORATORIO%20-%20Syslog%20-%20CCNA)
+- [30 - PPP, MPLPP y PPPoE](./30%20-%20LABORATORIO%20-%20PPP%2C%20MPLPP%20y%20PPPoE%20-%20CCNA)
+- [32 - Túneles GRE](./32%20-%20LABORATORIO%20-%20T%C3%BAneles%20GRE%20-%20CCNA)
+- [34 - SPAN](./34%20-%20LABORATORIO%20-%20SPAN%20-%20CCNA)
 
----
+</details>
 
-## ⚙️ ¿Cómo usar este repositorio?
-1. Descarga el repositorio a tu computadora o navega por las carpetas directamente aquí en GitHub.
-2. Si deseas interactuar con la topología, abre los archivos `.pkt` utilizando **Cisco Packet Tracer**.
-3. Lee el archivo `README.md` dentro de cada carpeta para ver la documentación completa del laboratorio.
+<details>
+<summary><strong>📝 Evaluaciones y repasos generales</strong> — 3 laboratorios</summary>
 
+- [06 - Review Configuration 01](./06%20-%20LABORATORIO%20-%20Review%20Configuration%2001%20-%20CCNA)
+- [22 - Review Configuration 02](./22%20-%20LABORATORIO%20-%20Review%20Configuration%2002%20-%20CCNA)
+- [35 - Review Configuration 03](./35%20-%20LABORATORIO%20-%20Review%20Configuration%2003%20-%20CCNA)
+
+</details>
+
+## 📁 Contenido de los laboratorios
+
+El material está organizado en carpetas por tema. Consulta en cada una:
+
+- **Archivo `.pkt`:** topología inicial para desarrollar el laboratorio.
+- **Enunciado o documentación disponible:** requisitos y tareas del ejercicio.
+- **Material de apoyo, cuando corresponda:** apuntes, diagramas o capturas.
+
+> Según el objetivo del laboratorio, algunos dispositivos pueden incluir configuraciones base. Revisa el enunciado antes de modificar o borrar configuraciones.
+
+## 🚀 ¿Cómo utilizar este repositorio?
+
+1. Descarga el repositorio desde **Code → Download ZIP** y extrae su contenido.
+2. Elige un laboratorio del índice.
+3. Revisa su enunciado y el material disponible en la carpeta.
+4. Abre el archivo `.pkt` con **Cisco Packet Tracer**.
+5. Guarda una copia con otro nombre para conservar el escenario inicial.
+6. Completa las configuraciones solicitadas.
+7. Verifica los resultados mediante comandos `show`, pruebas de conectividad y, cuando resulte útil, el modo Simulation.
+8. Guarda tu trabajo y documenta los resultados.
+
+**No basta con que un ping responda:** comprueba también que se cumplan los requisitos del ejercicio, como restricciones de acceso, selección de rutas o funcionamiento de servicios.
+
+## 🧩 Metodología de práctica
+
+Para aprovechar cada laboratorio:
+
+1. Identifica el objetivo y analiza la topología.
+2. Planifica la configuración antes de introducir comandos.
+3. Configura y verifica por etapas.
+4. Si aparece un error, identifica su causa y comprueba la corrección.
+5. Explica con tus propias palabras cómo funciona la solución.
+
+Los archivos `.pkt` se utilizan para practicar y verificar manualmente los resultados. No incluyen necesariamente puntuación ni corrección automática.
+
+## 💬 Errores y sugerencias
+
+Si encuentras un problema en una topología, una instrucción poco clara o un enlace que no funciona, puedes abrir un **Issue** indicando:
+
+- Número y nombre del laboratorio.
+- Descripción del problema.
+- Versión de Packet Tracer utilizada.
+- Captura o pasos para reproducirlo, si corresponde.
 
 ## 👨‍💻 Autor
 
 **Jhair De la Cruz**
-* 🎓 Estudiante de Ingeniería de Telecomunicaciones.
-* 🔒 Apasionado por las redes y la ciberseguridad 
-* 📡 Preparándome activamente para la certificación CCNA.
+
+- 🎓 Estudiante de Ingeniería de Telecomunicaciones.
+- 🌐 Interés en infraestructura de redes.
+- 🔒 Enfoque en ciberseguridad y ethical hacking.
+
+---
+
+Repositorio educativo para la práctica de redes. No es material oficial de Cisco.
