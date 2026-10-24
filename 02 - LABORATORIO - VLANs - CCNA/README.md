@@ -5,8 +5,8 @@
 ![](Pasted-image-20260106171708.png)
 
 1) Haga ping entre las computadoras para probar la conectividad.
-2) Asigne PC1 y PC3 a la VL
-3) AN1, y PC2 y PC4 a la VLAN2.
+2) Asigne PC1 y PC3 a la VLAN1
+3) y PC2 y PC4 a la VLAN2.
 4) Intente hacer ping entre PC1 y PC3, y luego entre PC2 y PC4. ¿Por qué funciona el ping entre PC1 y PC3, pero no entre PC2 y PC4?
 5) Configure las interfaces que conectan SW1 y SW2 como interfaces troncales.
 6) Vuelva a hacer ping entre las computadoras. ¿Qué pings fallan y cuáles tienen éxito?
